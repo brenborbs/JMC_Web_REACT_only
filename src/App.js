@@ -1,26 +1,38 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Switch, Route } from 'react-router-dom';
+
+import Layout from './hoc/layout';
+
+import Home from './components/Home';
+import About from './components/About';
+import Services from './components/Services';
+import Contact from './components/Contact';
+
+import Overview_DD from './components/OverviewDD';
+import Overview_PS from './components/OverviewPS';
+import Overview_PT from './components/OverviewPT';
+import Overview_TS from './components/OverviewTS';
+import Overview_NB from './components/OverviewNB';
+import Overview_CN from './components/OverviewCN';
+
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
+      <Layout>
+        <Switch>
+        <Route path='/' exact component={Home} />
+        <Route path='/about_us' exact component={About} />
+        <Route path='/services' exact component={Services} />
+        <Route path='/contact' exact component={Contact} />
+        <Route path='/services/overview_drydockings' exact component={Overview_DD} />
+      <Route path='/services/overview_preSurveys' exact component={Overview_PS} />
+      <Route path='/services/overview_paintTechnology' exact component={Overview_PT} />
+      <Route path='/services/overview_tankSurveys' exact component={Overview_TS} />
+      <Route path='/services/overview_newBuildings' exact component={Overview_NB} />
+      <Route path='/services/overview_consulting' exact component={Overview_CN} />
+        </Switch>
+      </Layout>
     );
   }
 }
