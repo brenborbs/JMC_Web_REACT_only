@@ -7,6 +7,7 @@ import Home from './components/Home';
 import About from './components/About';
 import Services from './components/Services';
 import Contact from './components/Contact';
+import Sample from './components/Sample';
 
 import Overview_DD from './components/OverviewDD';
 import Overview_PS from './components/OverviewPS';
@@ -25,6 +26,7 @@ class App extends Component {
         <Route path='/about_us' exact component={About} />
         <Route path='/services' exact component={Services} />
         <Route path='/contact' exact component={Contact} />
+        <Route path='/report' exact component={Sample} />
         <Route path='/services/overview_drydockings' exact component={Overview_DD} />
       <Route path='/services/overview_preSurveys' exact component={Overview_PS} />
       <Route path='/services/overview_paintTechnology' exact component={Overview_PT} />

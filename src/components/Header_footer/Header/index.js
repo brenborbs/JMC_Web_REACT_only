@@ -22,9 +22,10 @@ import Logo from '../../../Resources/img/logo.jpg';
         </div>
         </nav>
         
-        <nav className="Navbar__Items Navbar__Items--right">
+        <nav className="Navbar__Items Navbar__Items--center">
         <div className="Navbar__Link">
         {/* {this.showLinks(this.state.user)} */}
+        <Link className="link-sample" to='/report'>Report</Link>
         </div>
       </nav>
       </div> 

@@ -1,6 +1,6 @@
 import React from 'react';
 import ImageFour from '../../Resources/img/de.JPG';
-import ImageFive from '../../Resources/img/expd.JPG';
+import ImageFive from '../../Resources/img/salt.JPG';
 import ImageSix from '../../Resources/img/tank1.JPG';
 import ImageSeven from '../../Resources/img/ddf.JPG';
  

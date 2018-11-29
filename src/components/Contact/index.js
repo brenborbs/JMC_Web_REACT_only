@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Experties from './experties';
 import Address from './address';
+import Sponsor from './sponsor';
 
  class Contact extends Component {
   render() {
@@ -8,6 +9,7 @@ import Address from './address';
       <div>
         <Experties/>
         <Address/>
+        <Sponsor />
       </div>
     )
   }
