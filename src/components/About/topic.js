@@ -14,7 +14,7 @@ const Topic = () => {
       <div className='player-wrapper'>
         <ReactPlayer
           className='react-player'
-          url='https://youtu.be/UBOJ9UhlBnc'
+          url='https://youtu.be/b48HuJxCkaY'
           width='100%'
           height='100%'
         />

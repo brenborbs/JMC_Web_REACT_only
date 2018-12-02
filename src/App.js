@@ -7,6 +7,7 @@ import Home from './components/Home';
 import About from './components/About';
 import Services from './components/Services';
 import Contact from './components/Contact';
+import Capability from './components/Capability';
 import Sample from './components/Sample';
 
 import Overview_DD from './components/OverviewDD';
@@ -24,6 +25,7 @@ class App extends Component {
         <Switch>
         <Route path='/' exact component={Home} />
         <Route path='/about_us' exact component={About} />
+        <Route path='/capabilities' exact component={Capability} />
         <Route path='/services' exact component={Services} />
         <Route path='/contact' exact component={Contact} />
         <Route path='/report' exact component={Sample} />

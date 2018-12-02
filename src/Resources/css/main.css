@@ -39,7 +39,16 @@ body {
 }
 
 /* navbar */
- .Navbar {
+.navbar {
+  background-color: #212342;
+} 
+
+.cap-container {
+  width: 1000px;
+  padding: 0 80px;
+}
+
+ /* .Navbar {
   display: flex;
   padding: 16px;
   background-color:#212342;
@@ -53,8 +62,8 @@ body {
   padding: 10px;
   font-size: 18px;
   color: white;
-  /* border-right-style: solid;
-  border-right-width: thin; */
+  border-right-style: solid;
+  border-right-width: thin; 
 }
 
 .link-sample {
@@ -80,7 +89,7 @@ body {
 
 .Navbar__Items--right {
   margin-left:auto;
-} 
+}  */
 
 /* banner dude */
 .banner {
@@ -110,7 +119,7 @@ body {
 }
 
 .topic_section_style{
-  padding-top: 12vh;
+  padding-top: 7vh; 
   padding-bottom: 10vh;
   padding-right: 10vw;
   padding-left: 10vw;
@@ -197,7 +206,7 @@ body {
 }
 
 /*services*/
-
+ 
 .services {
   min-height: 100vh;
   background: url(../../Resources/img/featured_home_2.jpg);
@@ -981,4 +990,36 @@ footer {
 .sponsor p {
   letter-spacing: 2px;
 }
+
+/* capabilities */
+.cap-banner-con {
+  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../../Resources/img/dda.JPG);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* padding: 20px 0 80px 0; */
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+
+}
+
+.cap-banner-con {
+  flex: 1 0 auto;
+  min-height: 90vh;
+}
+
+.cap-banner-box-con {
+  color: #f5f5f5;
+  text-align: center;
+}
+
+.cap-banner-underline-con {
+  width: 200px;
+  margin: 10px auto;
+  border: 3px solid #e6af2e;
+}
+
 

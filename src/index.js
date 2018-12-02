@@ -4,6 +4,8 @@ import { BrowserRouter } from 'react-router-dom';
 import './Resources/css/main.css';
 import ScrollToTop from './Common/ScrollToTop';
 
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 import App from './App';
 
 
