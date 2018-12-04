@@ -48,7 +48,9 @@ const Projects = () => {
         </article>
         
         <article className="projects-item">
-          <img src={ImageThree} alt="Three" width='20em' height='40em' />
+          <img src={ImageThree} alt="Three" 
+          // width='20em' height='40em' 
+          />
           <div className="img-text">
             <h1>AIDAbella</h1>
             <h6>Tank Survey</h6>
