@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Cover from '../../Resources/img/cover.png';
+import Cover from '../../Resources/img/ReportCover.png';
 import Intro from '../../Resources/img/intro.png';
 import Scope from '../../Resources/img/scope.png';
 import Eval from '../../Resources/img/evaluation.png';
