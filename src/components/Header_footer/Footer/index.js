@@ -6,10 +6,10 @@ const Footer = () => {
   return (
     <footer>
       <div className="footer-text" >
-      <h3  >&copy; JMC-Limited 2018. Follow Us</h3>
+      <h3  >&copy; JMC-Limited 2019. Follow Us</h3>
     </div>
     <div className="footer-icons">
-      <a href="https://www.facebook.com"><i className="fa fa-facebook"></i></a>
+      <a href="https://www.facebook.com/JMC-Limited-249135151800194/"><i className="fa fa-facebook"></i></a>
       <a href="https://www.twitter.com"><i className="fa fa-twitter"></i></a>
       <a href="https://www.instagram.com"><i className="fa fa-instagram"></i></a>
       <a href="https://www.linkedin.com/"><i className="fa fa-linkedin"></i></a>

@@ -1,15 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Cover from '../../Resources/img/ReportCover.png';
-import Intro from '../../Resources/img/intro.png';
-import Scope from '../../Resources/img/scope.png';
-import Eval from '../../Resources/img/evaluation.png';
+import Intro from '../../Resources/img/intro.png'; //
+import Scope from '../../Resources/img/scope.png'; //
+import Eval from '../../Resources/img/detail.png'; //
 import Photo from '../../Resources/img/photos.png';
 import Prog from '../../Resources/img/progress.png';
 import Ref from '../../Resources/img/reference.png';
-import Sched from '../../Resources/img/sched.png';
-import Conc from '../../Resources/img/conclusion.png';
-
+import Sched from '../../Resources/img/sched.png'; //
+import Conc from '../../Resources/img/conclusion.png'; //
+ 
 const Report = () => {
   return (
     <div className="sample_section_style" >
