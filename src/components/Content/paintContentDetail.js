@@ -5,6 +5,7 @@ const PaintContentDetails = ({paint}) => {
   return (
     <div className="col-md-9" style={{ paddingTop: '3em', letterSpacing: '2px' }} >
     <img className="featurette-image img-fluid mx-auto" src={`${paint.photo}`} alt="paint" style={{ width: '100%' }} />
+    <p>{paint.web}</p>
     <h2 className="featurette-heading" style={{ paddingTop:'1.5em' }} >{paint.title}</h2>
       <p className="lead" ><strong>Category:</strong> {paint.category}</p>
       <p className="lead" ><strong>Areas of Use:</strong> {paint.usage}</p>

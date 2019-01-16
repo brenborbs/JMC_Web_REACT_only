@@ -45,9 +45,6 @@ import Logo from '../../../Resources/img/logo.jpg';
       <li className="nav-item">
       <Link to='/report' className="nav-link">Report</Link>
       </li>
-      <li className="nav-item">
-      <Link to='/paintLesson' className="nav-link">Paints</Link>
-      </li>
     </ul>
     
   </div>

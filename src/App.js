@@ -16,9 +16,10 @@ import Overview_PT from './components/OverviewPT';
 import Overview_TS from './components/OverviewTS';
 import Overview_NB from './components/OverviewNB';
 import Overview_CN from './components/OverviewCN';
+import Page404 from './hoc/404';
 
 import Paint from './components/Paints';
-import PaintContent from './components/Content/paintContent';
+// import PaintContent from './components/Content/paintContent';
 
 
 class App extends Component {
@@ -33,13 +34,14 @@ class App extends Component {
         <Route path='/contact' exact component={Contact} />
         <Route path='/report' exact component={Sample} />
         <Route path='/paintLesson' exact component={Paint} />
-        <Route path='/paintLesson/:id' exact component={PaintContent} />
+        
         <Route path='/services/overview_drydockings' exact component={Overview_DD} />
       <Route path='/services/overview_preSurveys' exact component={Overview_PS} />
       <Route path='/services/overview_paintTechnology' exact component={Overview_PT} />
       <Route path='/services/overview_tankSurveys' exact component={Overview_TS} />
       <Route path='/services/overview_newBuildings' exact component={Overview_NB} />
       <Route path='/services/overview_consulting' exact component={Overview_CN} />
+      <Route component={Page404} />
         </Switch>
       </Layout>
     );

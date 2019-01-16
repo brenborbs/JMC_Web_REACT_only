@@ -1,4 +1,7 @@
 import { createReducer } from '../Common/utilReducer';
+import photo1 from '../Resources/img/stefano-ghezzi-1274585-unsplash.jpg';
+import photo2 from '../Resources/img/scott-lynch-1258208-unsplash.jpg';
+import photo3 from '../Resources/img/takis-politis-626370-unsplash.jpg';
 
 const initialState = [
   {
@@ -9,7 +12,8 @@ const initialState = [
     usage: 'Zinc-rich epoxy paints are mainly used nowadays for primer coats both for new buildings and maintenance and also, for repair of minor damages.',
     prep: 'Thorough surface preparation to Sa 2.5. The surface preparation results in a well-cleaned and rough surface which ensures that the paint adheres firmly to the steel.',
     application: 'They can be applied by brush and rollers. Most efficient way would always be to used airless spray.',
-    photo: 'https://www.promain.co.uk/media/catalog/product/cache/1/image/736x460/9df78eab33525d08d6e5fb8d27136e95/3/4/3475-0-rustoleum-6400-metal-primer-promain.jpg'
+    photo: photo1 ,
+    web: 'Photo by Stefano Ghezzi on Unsplash'
   },
   {
     id: '2',
@@ -19,7 +23,8 @@ const initialState = [
     usage: 'One of the main reasons why Zinc ethyl silicate is used in the industry because it provides excellent corrosion on steel. It normally serves as a primer coat to be overcoated with barrier paints. These can be usually found on sea chest covers, handrails and ballast tank pipes.',
     prep: 'Blast cleaning to a degree of cleanliness at Sa2.5 to Sa3.0 with a maximum roughness measured at within 50 to 75 microns range.',
     application: 'Best way to apply the paint would be inside a paint shop with a controlled environment. Low humidity would result into low strength of the paint. Most efficient application would be by airless spray for optimal results.',
-    photo: 'https://galvanizeit.org/uploads/default/Zinc_Rich_Paint_Touch_Up_01_web.jpg'
+    photo: photo2,
+    web: 'Photo by Scott Lynch on Unsplash'
   },
   {
     id: '3',
@@ -29,7 +34,8 @@ const initialState = [
     usage: 'Zinc-rich epoxy paints are mainly used nowadays for primer coats both for new buildings and maintenance and also, for repair of minor damages.',
     prep: 'Thorough surface preparation to Sa 2.5. The surface preparation results in a well-cleaned and rough surface which ensures that the paint adheres firmly to the steel.',
     application: 'They can be applied by brush and rollers. Most efficient way would always be to used airless spray.',
-    photo: 'http://marketbulletin.com.pk/wp-content/uploads/2017/09/Spritztechnik-2a53429a.jpg'
+    photo: photo3,
+    web: 'Photo by Takis Politis on Unsplash'
   },
   {
     id: '4',
@@ -39,7 +45,8 @@ const initialState = [
     usage: 'Zinc-rich epoxy paints are mainly used nowadays for primer coats both for new buildings and maintenance and also, for repair of minor damages.',
     prep: 'Thorough surface preparation to Sa 2.5. The surface preparation results in a well-cleaned and rough surface which ensures that the paint adheres firmly to the steel.',
     application: 'They can be applied by brush and rollers. Most efficient way would always be to used airless spray.',
-    photo: 'https://s3.ap-southeast-1.amazonaws.com/images.deccanchronicle.com/dc-Cover-aels8hhjmgruhrj42rnu3g0bt2-20171206182246.Medi.jpeg'
+    photo: 'https://s3.ap-southeast-1.amazonaws.com/images.deccanchronicle.com/dc-Cover-aels8hhjmgruhrj42rnu3g0bt2-20171206182246.Medi.jpeg',
+    web: 'Photo by Stefano Ghezzi on Unsplash'
   },
   
 
