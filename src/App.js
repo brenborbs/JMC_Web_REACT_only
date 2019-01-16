@@ -17,6 +17,9 @@ import Overview_TS from './components/OverviewTS';
 import Overview_NB from './components/OverviewNB';
 import Overview_CN from './components/OverviewCN';
 
+import Paint from './components/Paints';
+import PaintContent from './components/Content/paintContent';
+
 
 class App extends Component {
   render() {
@@ -29,6 +32,8 @@ class App extends Component {
         <Route path='/services' exact component={Services} />
         <Route path='/contact' exact component={Contact} />
         <Route path='/report' exact component={Sample} />
+        <Route path='/paintLesson' exact component={Paint} />
+        <Route path='/paintLesson/:id' exact component={PaintContent} />
         <Route path='/services/overview_drydockings' exact component={Overview_DD} />
       <Route path='/services/overview_preSurveys' exact component={Overview_PS} />
       <Route path='/services/overview_paintTechnology' exact component={Overview_PT} />
