@@ -20,9 +20,9 @@ import Logo from '../../../Resources/img/logo.jpg';
       <li className="nav-item">
         <Link to='/about_us' className="nav-link" >About</Link>
       </li>
-      <li className="nav-item">
+      {/* <li className="nav-item">
       <Link to='/capabilities' className="nav-link" >Capabilities</Link>
-      </li>
+      </li> */}
       
       <li className="nav-item dropdown">
       <Link className="nav-link dropdown-toggle" to="/services" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >Services
@@ -44,6 +44,9 @@ import Logo from '../../../Resources/img/logo.jpg';
       </li>
       <li className="nav-item">
       <Link to='/report' className="nav-link">Report</Link>
+      </li>
+      <li className="nav-item">
+      <Link to='/blog' className="nav-link">Blog</Link>
       </li>
     </ul>
     

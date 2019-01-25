@@ -18,10 +18,9 @@ import { Link } from 'react-router-dom';
                 <Link 
               // style={{ margin: '10px 10px 20px 10px' }}
               // className="btn btn-primary btn-lg"
-              to={`/paintLesson/${paint.id}`} >View
+              to={`/blog/${paint.id}`} >View
               </Link>
               </div>
-              
             </article>
           
     )

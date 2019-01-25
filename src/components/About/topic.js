@@ -1,6 +1,5 @@
 import React from 'react';
-import ReactPlayer from 'react-player';
-
+ 
 const Topic = () => {
   return (
     <div className="topic_section_style" >
@@ -11,15 +10,7 @@ const Topic = () => {
         <div className="title-underline"></div>
       </div>
 
-      <div className='player-wrapper'>
-        <ReactPlayer
-          className='react-player'
-          url='https://www.youtube.com/watch?v=qsTP1aMnlfM'
-          width='100%'
-          height='100%'
-        />
-      </div>
-
+      
       <div className="topic_container" style={{ marginTop: '2em' }} >
         <p>
         JMC Limited is an expert service provider for corrosion control, preventive maintenance and consultancy in the marine industry. It started operations within the last 2 years and have successfully completed and helped many major ship owners with regards to corrosion control in their fleet.

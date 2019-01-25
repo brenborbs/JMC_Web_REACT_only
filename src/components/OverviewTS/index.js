@@ -1,13 +1,17 @@
 import React, { Component } from 'react';
-import TankSurvey from './tank_survey';
-import Blog from './blog';
+import Banner from './banner';
+import Desc from './desc';
+// import TankSurvey from './tank_survey';
+// import Blog from './blog';
 
  class OverviewTS extends Component {
   render() {
     return (
       <div>
-        < TankSurvey/>
-        <Blog />
+        <Banner />
+        <Desc />
+        {/* < TankSurvey/>
+        <Blog /> */}
       </div>
     )
   }

@@ -13,80 +13,89 @@ import Conc from '../../Resources/img/conclusion.png'; //
 const Report = () => {
   return (
     <div className="sample_section_style" >
-  
+    
     <div className="title">
         <div className="title-text">
-          <h1>JMC Sample Report</h1>
+          <h1 style={{ color: 'white' }} >JMC Sample Report</h1>
         </div>
         <div className="title-underline"></div>
             
             <div className="sample_text" >
-              <p>A glimpse on a submitted report from a previous project. You can check below.</p>
+              {/* <p>A glimpse on a submitted report from a previous project. You can check below.</p> */}
             </div>
               
-            <div className="projects-container">
+            <div className="projects-container" style={{ paddingTop: '3em' }}  >
         
-        <article className="projects-item">
-          <img src={Cover} alt="One" />
-          <div className="img-text">
-            <h1>Cover Page</h1>
+        <article className="p-projects-item">
+        <div style={{ textAlign: 'center' , color: 'white', textDecoration: 'underline', textTransform: 'uppercase' }} >
+            <h4>Cover Page</h4>
           </div>
-        </article>
-        
-        <article className="projects-item">
-          <img src={Intro} alt="Two"/>
-          <div className="img-text">
-            <h1>Introduction</h1>
-          </div>
+          <img src={Cover} alt="One" style={{ width: '100%' }} />
+          
         </article>
         
-        <article className="projects-item">
-          <img src={Scope} alt="Three"/>
-          <div className="img-text">
-            <h1>Scope</h1>
+        <article className="p-projects-item">
+        <div style={{ textAlign: 'center', color: 'white', textDecoration: 'underline', textTransform: 'uppercase' }}>
+            <h4>Introduction</h4>
           </div>
+          <img src={Intro} alt="Two" style={{ width: '100%' }}/>
+          
         </article>
         
-        <article className="projects-item">
-          <img src={Eval} alt="four"/>
-          <div className="img-text">
-            <h1>Evaluation</h1>
+        <article className="p-projects-item">
+        <div style={{ textAlign: 'center', color: 'white',textDecoration: 'underline', textTransform: 'uppercase' }}>
+            <h4>Scope</h4>
           </div>
+          <img src={Scope} alt="Three" style={{ width: '100%' }} />
+          
+        </article>
+        
+        <article className="p-projects-item">
+        <div style={{ textAlign: 'center', color: 'white',textDecoration: 'underline', textTransform: 'uppercase' }}>
+            <h4>Evaluation</h4>
+          </div>
+          <img src={Eval} alt="four" style={{ width: '100%' }} />
+          
         </article>
 
-        <article className="projects-item">
-          <img src={Photo} alt="five"/>
-          <div className="img-text">
-            <h1>Photos</h1>
+        <article className="p-projects-item">
+        <div style={{ textAlign: 'center', color: 'white',textDecoration: 'underline', textTransform: 'uppercase' }}>
+            <h4>Photos</h4>
           </div>
+          <img src={Photo} alt="five" style={{ width: '100%' }} />
+          
         </article>
 
-        <article className="projects-item">
-          <img src={Prog} alt="six"/>
-          <div className="img-text">
-            <h1>Progress</h1>
+        <article className="p-projects-item">
+        <div style={{ textAlign: 'center', color: 'white',textDecoration: 'underline', textTransform: 'uppercase' }}>
+            <h4>Progress</h4>
           </div>
+          <img src={Prog} alt="six" style={{ width: '100%' }} />
+          
         </article>
 
-        <article className="projects-item">
-          <img src={Ref} alt="seven"/>
-          <div className="img-text">
-            <h1>Reference</h1>
+        <article className="p-projects-item">
+        <div style={{ textAlign: 'center', color: 'white',textDecoration: 'underline', textTransform: 'uppercase' }} >
+            <h4>Reference</h4>
           </div>
+          <img src={Ref} alt="seven" style={{ width: '100%' }} />
+          
         </article>
 
-        <article className="projects-item">
-          <img src={Sched} alt="eight"/>
-          <div className="img-text">
-            <h1>Schedule</h1>
+        <article className="p-projects-item">
+        <div style={{ textAlign: 'center', color: 'white',textDecoration: 'underline', textTransform: 'uppercase' }} >
+            <h4>Schedule</h4>
           </div>
+          <img src={Sched} alt="eight" style={{ width: '100%' }} />
+          
         </article>
 
-        <article className="projects-item">
-          <img src={Conc} alt="nine"/>
-          <div className="img-text">
-            <h1>Conclusion</h1>
+        <article className="p-projects-item">
+        <div style={{textAlign: 'center', color: 'white',textDecoration: 'underline', textTransform: 'uppercase'}} >
+            <h4>Conclusion</h4>
           </div>
+          <img src={Conc} alt="nine" style={{ width: '100%' }} />
+          
         </article>
 
       </div>

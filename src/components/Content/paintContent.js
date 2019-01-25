@@ -20,7 +20,9 @@ const mapState = (state, ownProps) => {
 
  const PaintContent = ({ paint }) => {
    return (
-     <div className="exp-section_style" >
+     <div 
+     className="con-exp-section_style" 
+     >
       <div className="row featurette">
         
           <PaintContentDetail 

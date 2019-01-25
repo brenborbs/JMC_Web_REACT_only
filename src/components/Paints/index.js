@@ -16,7 +16,7 @@ const mapState = (state) => ({
       
       <div className="title" style={{paddingTop: '20px'}} >
         <div className="paint-title-text" >
-          <h1>Types of Paints</h1>
+          <h1 style={{ color: 'black'}} >Case Studies</h1>
           <div className="title-underline"></div>
         </div>
   

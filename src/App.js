@@ -7,7 +7,7 @@ import Home from './components/Home';
 import About from './components/About';
 import Services from './components/Services';
 import Contact from './components/Contact';
-import Capability from './components/Capability';
+// import Capability from './components/Capability';
 import Sample from './components/Sample';
 
 import Overview_DD from './components/OverviewDD';
@@ -19,7 +19,7 @@ import Overview_CN from './components/OverviewCN';
 import Page404 from './hoc/404';
 
 import Paint from './components/Paints';
-// import PaintContent from './components/Content/paintContent';
+import PaintContent from './components/Content/paintContent';
 
 
 class App extends Component {
@@ -29,11 +29,12 @@ class App extends Component {
         <Switch>
         <Route path='/' exact component={Home} />
         <Route path='/about_us' exact component={About} />
-        <Route path='/capabilities' exact component={Capability} />
+        {/* <Route path='/capabilities' exact component={Capability} /> */}
         <Route path='/services' exact component={Services} />
         <Route path='/contact' exact component={Contact} />
         <Route path='/report' exact component={Sample} />
-        <Route path='/paintLesson' exact component={Paint} />
+        <Route path='/blog' exact component={Paint} />
+        <Route path='/blog/:id' exact component={PaintContent} />
         
         <Route path='/services/overview_drydockings' exact component={Overview_DD} />
       <Route path='/services/overview_preSurveys' exact component={Overview_PS} />

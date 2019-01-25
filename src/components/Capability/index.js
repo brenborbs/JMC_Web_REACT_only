@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Newbuild from './newbuild';
 import Banner from './banner';
-
+ 
  class Capability extends Component {
   render() {
     return (

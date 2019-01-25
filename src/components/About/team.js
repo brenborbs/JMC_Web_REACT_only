@@ -10,7 +10,7 @@ const Team = () => {
 <section className="team">
     
  <div className="title-team">
-      <h1 className="title-text">Our Team</h1>
+      <h1 className="title-text" style={{ color: 'white' }} >Our Team</h1>
       <div className="title-underline"></div>
     </div> 
 
@@ -24,7 +24,11 @@ const Team = () => {
         <h2>Brennon Borbon</h2>
         <h5>Head, New Buildings</h5>
         <hr />
-        <p>Specification Review</p><p>Yard review and selection</p><p>New Building Supervision</p><p>Delivery Negotiations</p><p>Claims Handling</p>
+        <p>Specification Review</p>
+        <p>Yard review and selection</p>
+        <p>New Building Supervision</p>
+        <p>Delivery Negotiations</p>
+        <p>Claims Handling</p>
           <div className="team-member-footer">
           <li>
             <ul>Email: bbo@jmc-limited.com</ul>
@@ -36,9 +40,11 @@ const Team = () => {
         <h2>Oleksandr Gutchak</h2>
         <h5>Head, OBM Department</h5>
         <hr />
-        <p>On-Board Maintenance</p><p>On-board Repairs</p>
+        <p>On-Board Maintenance</p>
+        <p>On-board Repairs</p>
         <p>Exposed Deck Repairs</p>
-        <p>Deck Maintenance</p><p>Ship Riding Team </p>
+        <p>Deck Maintenance</p>
+        <p>Ship Riding Team</p>
           <div className="team-member-footer">
           <li>
             <ul>Email: tech@jmc-limited.com</ul>
@@ -50,7 +56,11 @@ const Team = () => {
         <h2>Martin Jennet</h2>
         <h5>Head, Dry Dockings</h5>
         <hr />
-        <p>Guarantee Surveys</p><p>Pre-Dry Docking Surveys</p><p>Dry Docking Supervision</p><p>On-Board Tutoring</p> <p>Claims Support</p>
+        <p>Guarantee Surveys</p>
+        <p>Pre-Dry Docking Surveys</p>
+        <p>Dry Docking Supervision</p>
+        <p>On-Board Tutoring</p>
+        <p>Claims Support</p>
           <div className="team-member-footer">
           <li>
             <ul>Email: mje@jmc-limited.com</ul>

@@ -4,7 +4,7 @@ import Report from './report';
  class Sample extends Component {
   render() {
     return (
-      <div>
+      <div className="report-img" >
         <Report />
       </div>
     )
