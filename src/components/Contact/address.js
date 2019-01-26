@@ -41,7 +41,7 @@ const Address = () => {
         <hr />
         <p>Guarantee Surveys</p><p>Pre-Dry Docking Surveys</p><p>Dry Docking Supervision</p><p>On-Board Tutoring</p><p>Claims Support</p>
           <div>
-            <h5 style={{ fontSize: '18px'}} >Email: mje@jmc-limited.com</h5>
+            <h5 style={{ fontSize: '18px'}} ><i class="fas fa-envelope"></i> mje@jmc-limited.com</h5>
         </div>  
       </article> 
         

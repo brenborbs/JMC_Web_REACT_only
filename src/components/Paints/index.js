@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import PaintDetail from './paintDetail';
 
+
 const mapState = (state) => ({
   paints: state.paints
 })
@@ -10,7 +11,7 @@ const mapState = (state) => ({
   render() {
 
     const {paints} = this.props;
-
+    
     return (
     <section className="paint-projects" id="projects-p" >
       

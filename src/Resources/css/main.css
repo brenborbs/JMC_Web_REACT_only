@@ -152,7 +152,6 @@ body {
 }
 
 /*tittle */
-
 .title {
   margin: 40px 0;
 }
@@ -820,9 +819,9 @@ footer {
 }
 
 @media screen and (min-width:776px) {
-  #v-serv-desc {
-    /* display: flex; */
-  }
+  /* #v-serv-desc {
+    display: flex;
+  } */
   #v-serv-info,
   #v-serv-map 
   {
@@ -909,24 +908,9 @@ footer {
   margin: 70px 0;
 }
 
-.team-member-footer {
-  padding: 20px 0;
-  background: #2e282a;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
-  display: flex;
-  justify-content: space-around;
-}
-
-.team-member-footer ul {
-  font-size: 20px;
-  color: white;
-}
-
 .jmc_diag {
   text-align: center;
   padding-top: 40px;
-
 }
 
 .team-member img {

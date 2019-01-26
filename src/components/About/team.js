@@ -24,51 +24,30 @@ const Team = () => {
         <h2>Brennon Borbon</h2>
         <h5>Head, New Buildings</h5>
         <hr />
-        <p>Specification Review</p>
-        <p>Yard review and selection</p>
-        <p>New Building Supervision</p>
-        <p>Delivery Negotiations</p>
-        <p>Claims Handling</p>
-        
-          <div className="team-member-footer">
-          <li>
-            <ul>Email: bbo@jmc-limited.com</ul>
-          </li> 
-        </div> 
+        <p>Specification Review</p><p>Yard review and selection</p><p>New Building Supervision</p><p>Delivery Negotiations</p><p>Claims Handling</p>
+        <hr />
+        <p><strong><i class="fas fa-envelope"></i></strong> bbo@jmc-limited.com</p>
+          
       </article>
       <article className="team-member">
       <img src={Olek} alt="img" />
         <h2>Oleksandr Gutchak</h2>
         <h5>Head, OBM Department</h5>
         <hr />
-        <p>On-Board Maintenance</p>
-        <p>On-board Repairs</p>
-        <p>Exposed Deck Repairs</p>
-        <p>Deck Maintenance</p>
-        <p>Ship Riding Team</p>
-        
-          <div className="team-member-footer">
-          <li>
-            <ul>Email: tech@jmc-limited.com</ul>
-          </li>
-        </div>  
+        <p>On-Board Maintenance</p><p>On-board Repairs</p><p>Exposed Deck Repairs</p><p>Deck Maintenance</p><p>Ship Riding Team</p>
+        <hr />
+        <p><strong><i class="fas fa-envelope"></i></strong> tech@jmc-limited.com</p>
+          
       </article>
       <article className="team-member">
       <img src={Mart} alt="img" />
         <h2>Martin Jennet</h2>
         <h5>Head, Dry Dockings</h5>
         <hr />
-        <p>Guarantee Surveys</p>
-        <p>Pre-Dry Docking Surveys</p>
-        <p>Dry Docking Supervision</p>
-        <p>On-Board Tutoring</p>
-        <p>Claims Support</p>
-        
-          <div className="team-member-footer">
-          <li>
-            <ul>Email: mje@jmc-limited.com</ul>
-          </li>
-        </div>  
+        <p>Guarantee Surveys</p><p>Pre-Dry Docking Surveys</p><p>Dry Docking Supervision</p><p>On-Board Tutoring</p><p>Claims Support</p>
+        <hr />
+        <p><strong><i class="fas fa-envelope"></i></strong> mje@jmc-limited.com</p>
+          
       </article> 
       {/* <article className="team-member">
       <img src={Erik} alt="img" />
