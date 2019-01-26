@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 
 const Tank_Surv = () => {
@@ -22,21 +22,21 @@ const Tank_Surv = () => {
 
   <div id="v-serv-desc"  >
     <section id="v-serv-info" >
-      <div class="v-serv-center"  >
-        <div class="v-serv-item">
-          <i class="fa fa-check"></i>
+      <div className="v-serv-center"  >
+        <div className="v-serv-item">
+          <i className="fa fa-check"></i>
           <p>Ballast Tanks</p>
         </div>
-        <div class="v-serv-item">
-          <i class="fa fa-check"></i>
+        <div className="v-serv-item">
+          <i className="fa fa-check"></i>
           <p>Fresh Water Tanks</p>
         </div>
-        <div class="v-serv-item">
-          <i class="fa fa-check"></i>
+        <div className="v-serv-item">
+          <i className="fa fa-check"></i>
           <p>Engine Room Tanks</p>
         </div>
-        <div class="v-serv-item">
-          <i class="fa fa-check"></i>
+        <div className="v-serv-item">
+          <i className="fa fa-check"></i>
           <p>Fore and Aft Peak Tanks</p>
         </div>
       </div>
@@ -49,9 +49,9 @@ const Tank_Surv = () => {
     </section>
     
   </div>
-  <div className="section-btn">
+  {/* <div className="section-btn">
       <Link to="/contact" >Contact Us</Link>
-    </div> 
+    </div>  */}
       
     </div>
   );

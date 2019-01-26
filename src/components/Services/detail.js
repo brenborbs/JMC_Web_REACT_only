@@ -109,9 +109,9 @@ const Detail = () => {
 
 
 
-    <div className="section-btn">
+    {/* <div className="section-btn">
     <Link to="/contact" >Contact Us</Link>
-    </div>
+    </div> */}
   </section>
     </div>
   );

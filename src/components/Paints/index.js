@@ -14,7 +14,7 @@ const mapState = (state) => ({
     return (
     <section className="paint-projects" id="projects-p" >
       
-      <div className="title" style={{paddingTop: '20px'}} >
+      <div className="title" style={{paddingTop: '10vh'}} >
         <div className="paint-title-text" >
           <h1 style={{ color: 'black'}} >Case Studies</h1>
           <div className="title-underline"></div>

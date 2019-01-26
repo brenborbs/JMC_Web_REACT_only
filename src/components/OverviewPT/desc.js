@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 
 const Paint_Tech = () => {
@@ -22,21 +22,21 @@ const Paint_Tech = () => {
 
   <div id="v-serv-desc"  >
     <section id="v-serv-info" >
-      <div class="v-serv-center"  >
-        <div class="v-serv-item">
-          <i class="fa fa-check"></i>
+      <div className="v-serv-center"  >
+        <div className="v-serv-item">
+          <i className="fa fa-check"></i>
           <p>Paint Seminars</p>
         </div>
-        <div class="v-serv-item">
-          <i class="fa fa-check"></i>
+        <div className="v-serv-item">
+          <i className="fa fa-check"></i>
           <p>Paint Trainings</p>
         </div>
-        <div class="v-serv-item">
-          <i class="fa fa-check"></i>
+        <div className="v-serv-item">
+          <i className="fa fa-check"></i>
           <p>Inspection Guidelines</p>
         </div>
-        <div class="v-serv-item">
-          <i class="fa fa-check"></i>
+        <div className="v-serv-item">
+          <i className="fa fa-check"></i>
           <p>Corrosion Study</p>
         </div>
       </div>
@@ -47,9 +47,9 @@ const Paint_Tech = () => {
     </section>
     
   </div>
-  <div className="section-btn">
+  {/* <div className="section-btn">
       <Link to="/contact" >Contact Us</Link>
-    </div> 
+    </div>  */}
       
     </div>
   );

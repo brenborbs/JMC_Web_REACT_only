@@ -11,7 +11,7 @@ const PaintContentDetails = ({paint}) => {
     <img 
     className="featurette-image img-fluid mx-auto" 
     src={`${paint.photo}`} alt="paint" style={{ width: '80%' }} />
-    
+    <p style={{ fontSize: '9px' }} >{paint.web}</p>
     <h2 className="featurette-heading" 
     style={{ paddingTop:'1.5em'}} >{paint.title}</h2>
       <p className="p-lead" > {paint.category}</p>

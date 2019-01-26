@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 
 const Consulting = () => {
@@ -22,21 +22,21 @@ const Consulting = () => {
 
   <div id="v-serv-desc"  >
     <section id="v-serv-info" >
-      <div class="v-serv-center"  >
-        <div class="v-serv-item">
-          <i class="fa fa-check"></i>
+      <div className="v-serv-center"  >
+        <div className="v-serv-item">
+          <i className="fa fa-check"></i>
           <p>Corrosion Issues</p>
         </div>
-        <div class="v-serv-item">
-          <i class="fa fa-check"></i>
+        <div className="v-serv-item">
+          <i className="fa fa-check"></i>
           <p>Corrosion Prevention</p>
         </div>
-        <div class="v-serv-item">
-          <i class="fa fa-check"></i>
+        <div className="v-serv-item">
+          <i className="fa fa-check"></i>
           <p>Maintenance Plan</p>
         </div>
-        <div class="v-serv-item">
-          <i class="fa fa-check"></i>
+        <div className="v-serv-item">
+          <i className="fa fa-check"></i>
           <p>Plan Inspections</p>
         </div>
       </div>
@@ -49,9 +49,9 @@ const Consulting = () => {
     </section>
     
   </div>
-  <div className="section-btn">
+  {/* <div className="section-btn">
       <Link to="/contact" >Contact Us</Link>
-    </div> 
+    </div>  */}
       
     </div>
   );

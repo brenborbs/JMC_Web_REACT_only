@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 
 const Dry_Dock = () => {
@@ -22,21 +22,21 @@ const Dry_Dock = () => {
 
   <div id="v-serv-desc"  >
     <section id="v-serv-info" >
-      <div class="v-serv-center"  >
-        <div class="v-serv-item">
-          <i class="fa fa-check"></i>
+      <div className="v-serv-center"  >
+        <div className="v-serv-item">
+          <i className="fa fa-check"></i>
           <p>Tank Surveys</p>
         </div>
-        <div class="v-serv-item">
-          <i class="fa fa-check"></i>
+        <div className="v-serv-item">
+          <i className="fa fa-check"></i>
           <p>Corrosion Assessment</p>
         </div>
-        <div class="v-serv-item">
-          <i class="fa fa-check"></i>
+        <div className="v-serv-item">
+          <i className="fa fa-check"></i>
           <p>Paint Consumption Calculation</p>
         </div>
-        <div class="v-serv-item">
-          <i class="fa fa-check"></i>
+        <div className="v-serv-item">
+          <i className="fa fa-check"></i>
           <p>Shipyard Negotiation</p>
         </div>
       </div>
@@ -47,9 +47,9 @@ const Dry_Dock = () => {
     </section>
     
   </div>
-  <div className="section-btn">
+  {/* <div className="section-btn">
       <Link to="/contact" >Contact Us</Link>
-    </div> 
+    </div>  */}
       
     </div>
   );

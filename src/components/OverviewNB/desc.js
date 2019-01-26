@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 
 const Dry_Dock = () => {
@@ -22,29 +22,29 @@ const Dry_Dock = () => {
 
   <div id="v-serv-desc"  >
     <section id="v-serv-info" >
-      <div class="v-serv-center"  >
-        <div class="v-serv-item">
-          <i class="fa fa-check"></i>
+      <div className="v-serv-center"  >
+        <div className="v-serv-item">
+          <i className="fa fa-check"></i>
           <p>Development, review and negotiation of newbuilding contracts and specification</p>
         </div>
-        <div class="v-serv-item">
-          <i class="fa fa-check"></i>
+        <div className="v-serv-item">
+          <i className="fa fa-check"></i>
           <p>Plans and drawings approval</p>
         </div>
-        <div class="v-serv-item">
-          <i class="fa fa-check"></i>
+        <div className="v-serv-item">
+          <i className="fa fa-check"></i>
           <p>Makers evaluation and selection</p>
         </div>
-        <div class="v-serv-item">
-          <i class="fa fa-check"></i>
+        <div className="v-serv-item">
+          <i className="fa fa-check"></i>
           <p>Attendance to model tests and manufacturers’ premises</p>
         </div>
-        <div class="v-serv-item">
-          <i class="fa fa-check"></i>
+        <div className="v-serv-item">
+          <i className="fa fa-check"></i>
           <p>Site office set-up and ship construction supervision</p>
         </div>
-        <div class="v-serv-item">
-          <i class="fa fa-check"></i>
+        <div className="v-serv-item">
+          <i className="fa fa-check"></i>
           <p>Final assessment, post-delivery guarantee and claims settlement</p>
         </div>
       </div>
@@ -56,9 +56,9 @@ const Dry_Dock = () => {
     </section>
     
   </div>
-  <div className="section-btn">
+  {/* <div className="section-btn">
       <Link to="/contact" >Contact Us</Link>
-    </div> 
+    </div>  */}
       
     </div>
   );

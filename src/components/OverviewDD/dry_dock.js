@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 // import Phoq from '../../Resources/img/dda.JPG';
 import ReactPlayer from 'react-player';
 
@@ -43,29 +43,29 @@ const Dry_Dock = () => {
       
   <div id="serv-desc">
     <section id="serv-info">
-      <div class="serv-center">
-        <div class="serv-item">
-          <i class="fa fa-check"></i>
+      <div className="serv-center">
+        <div className="serv-item">
+          <i className="fa fa-check"></i>
           <p>Project Management</p>
         </div>
-        <div class="serv-item">
-          <i class="fa fa-check"></i>
+        <div className="serv-item">
+          <i className="fa fa-check"></i>
           <p>Shipyard Meetings</p>
         </div>
-        <div class="serv-item">
-          <i class="fa fa-check"></i>
+        <div className="serv-item">
+          <i className="fa fa-check"></i>
           <p>Actual Paint Control</p>
         </div>
-        <div class="serv-item">
-          <i class="fa fa-check"></i>
+        <div className="serv-item">
+          <i className="fa fa-check"></i>
           <p>Paint Equipment Check</p>
         </div>
-        <div class="serv-item">
-          <i class="fa fa-check"></i>
+        <div className="serv-item">
+          <i className="fa fa-check"></i>
           <p>Paint Maintenance Seminars</p>
         </div>
-        <div class="serv-item">
-          <i class="fa fa-check"></i>
+        <div className="serv-item">
+          <i className="fa fa-check"></i>
           <p>On-Board Tutoring</p>
         </div>
       </div>
@@ -76,9 +76,9 @@ const Dry_Dock = () => {
     </section>
     
   </div>
-  <div className="section-btn">
+  {/* <div className="section-btn">
       <Link to="/contact" >Contact Us</Link>
-    </div>
+    </div> */}
       
     </div>
   );

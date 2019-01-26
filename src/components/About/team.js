@@ -29,6 +29,7 @@ const Team = () => {
         <p>New Building Supervision</p>
         <p>Delivery Negotiations</p>
         <p>Claims Handling</p>
+        
           <div className="team-member-footer">
           <li>
             <ul>Email: bbo@jmc-limited.com</ul>
@@ -45,6 +46,7 @@ const Team = () => {
         <p>Exposed Deck Repairs</p>
         <p>Deck Maintenance</p>
         <p>Ship Riding Team</p>
+        
           <div className="team-member-footer">
           <li>
             <ul>Email: tech@jmc-limited.com</ul>
@@ -61,6 +63,7 @@ const Team = () => {
         <p>Dry Docking Supervision</p>
         <p>On-Board Tutoring</p>
         <p>Claims Support</p>
+        
           <div className="team-member-footer">
           <li>
             <ul>Email: mje@jmc-limited.com</ul>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import Cover from '../../Resources/img/ReportCover.png';
 import Intro from '../../Resources/img/intro.png'; //
 import Scope from '../../Resources/img/scope.png'; //
@@ -100,9 +100,9 @@ const Report = () => {
 
       </div>
 
-      <div className="section-btn">
+      {/* <div className="section-btn">
     <Link to="/contact" >Contact Us</Link>
-    </div>
+    </div> */}
       </div>
 </div>
   );
