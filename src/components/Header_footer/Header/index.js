@@ -57,7 +57,7 @@ import Logo from '../../../Resources/img/logo.jpg';
               <span className="mx-2 phone-icon">
                 <i className="fas fa fa-phone fa-fw"></i>
               </span>
-              +45 - 2889 - 1525
+              +45-2889-1525
             </p>
             <Link to="/contact" className="btn btn-outline-warning btn-lg">Contact Us</Link> 
           </div>

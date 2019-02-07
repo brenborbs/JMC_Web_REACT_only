@@ -72,7 +72,10 @@ const Dry_Dock = () => {
     </section>
     <section id="serv-map">
     <p className="serv-p">During drydocking, we will help you in managing the hull treatment and painting operations during the period. We will be on standby and available 24/7 , as some of the shipyards worked in 2 shifts. Our inspector will be there observing the whole activity, ensuring correct surface preparation and attending shipyard meetings, discussing and giving solutions through-out the whole process.</p>
-    <p className="serv-p">Many times, it has been our experience that paint consumption delivered on site, at times may be lacking or even more than enough but still the owner has to pay for the excess consumption. Our inspectors will control and will check the paint equipment prior starting any spray paintin applications. This is to ensure proper actual paint consumption has been monitored and moreover, our inspectors will guide the paint applicators to use Wet Film Thickness during the application to avoid excess paint consumption and defects all along.</p> 
+    <p className="serv-p">Many times, it has been our experience that paint consumption delivered on site, at times may be lacking or even more than enough but still the owner has to pay for the excess consumption. Our inspectors will control and will check the paint equipment prior starting any spray paintin applications. This is to ensure proper actual paint consumption has been monitored and moreover, our inspectors will guide the paint applicators to use Wet Film Thickness during the application to avoid excess paint consumption and defects all along.</p>
+    <p className="serv-p" >
+        During every process in coating operations, we will ensure that test areas of required surface preparation standard is agreed prior to job start. This leaves less space for any arguments during the process. We will monitor air-less spray and make sure sprayers are using wet-film gauges, to ensure a uniform paint application and avoid excessive over-spray. We will make proper physical paint thickness measurements between coats and push for corrective action in case the thickness are not complying with each coat of the specification.
+        </p> 
     </section>
     
   </div>

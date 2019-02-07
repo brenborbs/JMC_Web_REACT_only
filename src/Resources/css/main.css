@@ -772,9 +772,6 @@ footer {
 }
 
 @media screen and (min-width:776px) {
-  #serv-desc {
-    /* display: flex; */
-  }
   #serv-info,
   #serv-map {
     flex: 0 0 50%;
@@ -786,9 +783,39 @@ footer {
   }
 }
 
+.ptech-center {
+  width: 90%;
+  /* letter-spacing: 2px; */
+  font-size: 18px ;
+  margin: 40px auto;
+}
+.ptech-item {
+  display: flex;
+  margin: 10px 0;
+}
+.ptech-item .fa {
+  font-size: 30px;
+  color: #ffc914;
+  padding: 10px;
+  background: #191919;
+  margin-right: 15px;
+}
+
+#ptech-map {
+  font-size: 18px;
+}
+
+.video-wrapper {
+  padding-top: 56.25%;
+}
+
+@media screen and (min-width: 200px) {
+  .p-ptech {
+    padding-top: 2em;
+  }
+}
 /* desc */
 #v-serv-desc {
-  /* padding: 40px 0; */
   min-height: 60vh;
 }
 
