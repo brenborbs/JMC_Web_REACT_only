@@ -46,7 +46,6 @@ const Paint_Tech = () => {
           <div className="col-12 col-md-8">
             <div className="p-video">
               <Video />
-              <p style={{ textAlign: 'center', fontStyle: 'italic' }} >Silicone release fouling Application on vertical bottom of a Cruise Ship.</p> 
             </div>
           </div>
       </div>
