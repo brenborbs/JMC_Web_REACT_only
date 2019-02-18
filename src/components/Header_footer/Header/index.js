@@ -41,6 +41,7 @@ import Logo from '../../../Resources/img/logo.jpg';
           <Link className="dropdown-item" to="/services/overview_tankSurveys">Tank Surveys</Link>
           <Link className="dropdown-item" to="/services/overview_newBuildings">New Buildings</Link>
           <Link className="dropdown-item" to="/services/overview_consulting">Consulting</Link>
+          <Link className="dropdown-item" to="/services/overview_in-service">In-Service Repair</Link>
         </div>
       </li>
             
@@ -50,7 +51,8 @@ import Logo from '../../../Resources/img/logo.jpg';
             <li className="nav-item ">
               <Link to="/report" className="nav-link">Report</Link>
             </li>
-            <li className="nav-item "><Link to="/blog" className="nav-link">Blog</Link></li>
+            <li className="nav-item "><Link to="/blog" className="nav-link">Blog</Link>
+            </li>
           </ul>
           <div className="d-none d-lg-flex align-items-baseline">
             <p className="text-white mx-4">

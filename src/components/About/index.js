@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-// import Banner from './banner_about';
 import Topic from './topic';
 import Review from './review';
 import Team from './team';
@@ -8,7 +7,6 @@ import Team from './team';
   render() {
     return (
       <div>
-        {/* <Banner /> */}
         <Topic />
         <Team />
         <Review />

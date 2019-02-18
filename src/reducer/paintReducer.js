@@ -72,10 +72,7 @@ const initialState = [
     application: 'With the difficult dillema at hand, the best recourse would be to take the general and overall view of the tanks, then take in the percentages. Comparing both sides, if more tank areas or percentages fall on POOR conditions, then it gets this rating. Otherwise, the opposite FAIR rating is given once the sum on the FAIR areas exceed the latter.',
     photo: photo6,
     web: 'Image from IACS Recommendation 87, Guideline For Coating Maintenance and Repairs for Ballast Tanks'
-  },
-  
-  
-
+  }
 ]
 
 export default createReducer(initialState, {})

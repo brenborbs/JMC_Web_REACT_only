@@ -59,10 +59,11 @@ body {
 } 
 
 .cap-container {
-  width: 1000px;
+  width: 100px;
   padding: 0 80px;
 }
 
+/* Carousel */
 
 /* banner dude */
 .banner {
@@ -1053,10 +1054,10 @@ footer {
 }
 
 #projects-p {
-  background: url(../img/john-maravelakis-267-unsplash.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  padding: 20px 0 80px 0;
+  background: linear-gradient(to right, #000046, #1cb5e0);
+  /* background-size: cover;
+  background-repeat: no-repeat; */
+  padding: 20px 0 80px 0; 
 }
 
 .paint-project-container {
@@ -1150,6 +1151,36 @@ footer {
     grid-column-gap: 1em;
     grid-row-gap: 1em;
   }
+}
+
+.blog-banner-con {
+  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/john-maravelakis-267-unsplash.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* padding: 20px 0 80px 0; */
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+
+}
+
+.blog-banner-con {
+  flex: 1 0 auto;
+  min-height: 90vh;
+}
+
+.blog-banner-box-con {
+  color: #f5f5f5;
+  text-align: center;
+}
+
+.blog-banner-underline-con {
+  width: 200px;
+  margin: 10px auto;
+  border: 3px solid #e6af2e;
 }
 
 /* not found */

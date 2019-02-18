@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-// import {Link } from 'react-router-dom';
+
 import ServiceList from './serviceList';
 import PhotQ from '../../Resources/img/dd.JPG';
 import PhotW from '../../Resources/img/dft.JPG';
@@ -7,6 +7,7 @@ import PhotE from '../../Resources/img/bar.JPG';
 import PhotR from '../../Resources/img/tank1.JPG';
 import PhotT from '../../Resources/img/fore.JPG';
 import PhotY from '../../Resources/img/expd.JPG';
+import PhotX from '../../Resources/img/fdeck.JPG';
 
  class Detail extends Component {
    
@@ -54,7 +55,14 @@ import PhotY from '../../Resources/img/expd.JPG';
          title: "Consulting",
          desc: "On each ship/office",
          url: '/services/overview_consulting'
-       }
+       },
+       {
+        id: 6,
+        img: PhotX,
+        title: "In-Service Repair",
+        desc: "On board your ship",
+        url: '/services/overview_in-service'
+      }
       ]
     }
    

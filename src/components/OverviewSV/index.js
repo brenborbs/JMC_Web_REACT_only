@@ -1,17 +1,16 @@
 import React, { Component } from 'react';
-import PaintMain from './paintMain';
 import Banner from './banner';
+import Desc from './desc';
 
- class Paint extends Component {
+ class OverviewSV extends Component {
   render() {
-
     return (
       <div>
         <Banner />
-        <PaintMain />
+        <Desc />
       </div>
     )
   }
 }
 
-export default Paint;
+export default OverviewSV;
