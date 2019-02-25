@@ -1,9 +1,9 @@
-import React, { Component } from 'react';
+import React  from 'react';
 import Banner from './banner';
 import Desc from './desc';
 
- class OverviewSV extends Component {
-  render() {
+ const OverviewSV =() => {
+  
     return (
       <div>
         <Banner />
@@ -11,6 +11,6 @@ import Desc from './desc';
       </div>
     )
   }
-}
+
 
 export default OverviewSV;

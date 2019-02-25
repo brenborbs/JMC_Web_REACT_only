@@ -17,7 +17,7 @@ const Paint_Tech = () => {
 
     <div className="container-fluid" >
       <div className="row" >
-          <div className="col-6 col-md-4">
+          <div className="col-6 col-md-6">
             <div className="ptech-center" >
               <div className="ptech-item" >
                 <i className="fa fa-check"></i>
@@ -43,7 +43,7 @@ const Paint_Tech = () => {
               </div>
             </div>
           </div>
-          <div className="col-12 col-md-8">
+          <div className="col-6 col-md-6">
             <div className="p-video">
               <Video />
             </div>

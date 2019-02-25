@@ -5,7 +5,7 @@ import Diag from '../../Resources/img/jmc_diag.png';
 import Bren from '../../Resources/img/brennon.JPG';
 import Mart from '../../Resources/img/martin.png';
 import Olek from '../../Resources/img/olekA.png';
-// import Erik from '../../Resources/img/image_not_availble.png';
+import Ignacio from '../../Resources/img/image_not_availble.png';
 
 class Team extends Component {
 
@@ -13,6 +13,16 @@ class Team extends Component {
     members : [
       {
         id: 0,
+        img: Ignacio ,
+        name: "Ignacio",
+        dept: "Head, Department",
+        email: "tech@jmc-limited.com",
+        area: [
+          "Yard review and selection","New Building Supervision", "Delivery Negotiations", "Claims Handling"
+        ]
+      },
+      {
+        id: 1,
         img: Bren ,
         name: "Brennon Borbon",
         dept: "Head, New Buildings",
@@ -22,7 +32,7 @@ class Team extends Component {
         ]
       },
       {
-        id: 1,
+        id: 2,
         img: Olek,
         name: "Oleksandr Gutchak",
         dept: "Head, OBM Department",
@@ -32,7 +42,7 @@ class Team extends Component {
         ]
       },
       {
-        id: 2,
+        id: 3,
         img: Mart,
         name: "Martin Jennet",
         dept: "Head, Dry Dockings",

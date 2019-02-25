@@ -1,10 +1,10 @@
-import React, { Component } from 'react';
+import React  from 'react';
 import Topic from './topic';
 import Review from './review';
 import Team from './team';
 
- class About extends Component {
-  render() {
+ const About = () => {
+
     return (
       <div>
         <Topic />
@@ -13,6 +13,6 @@ import Team from './team';
       </div>
     )
   }
-}
+
 
 export default About;

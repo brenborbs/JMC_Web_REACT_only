@@ -1,10 +1,10 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Experties from './experties';
 import Address from './address';
 import Sponsor from './sponsor';
 
- class Contact extends Component {
-  render() {
+ const Contact =() => {
+  
     return (
       <div>
         <Experties/>
@@ -13,6 +13,6 @@ import Sponsor from './sponsor';
       </div>
     )
   }
-}
+
 
 export default Contact;

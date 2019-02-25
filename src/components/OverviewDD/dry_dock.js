@@ -1,22 +1,10 @@
 import React from 'react';
-// import { Link } from 'react-router-dom';
-// import Phoq from '../../Resources/img/dda.JPG';
 import ReactPlayer from 'react-player';
 
 const Dry_Dock = () => {
   return (
     <div className="topic_section_style" >
       <div className="title" >
-      {/* <div className="title-text" >
-          <h1>Dry Dockings</h1>
-        </div> */}
-        {/* <div className="title-underline"></div> */}
-        {/* <p style={{ 
-          textAlign: 'center' , 
-          paddingTop: '5px', 
-          letterSpacing: '2px' , 
-          fontSize: '25px', 
-          fontStyle: 'italic'}}>We are here for you</p> */}
       </div> 
 
       <div className='player-wrapper' >
@@ -79,9 +67,6 @@ const Dry_Dock = () => {
     </section>
     
   </div>
-  {/* <div className="section-btn">
-      <Link to="/contact" >Contact Us</Link>
-    </div> */}
       
     </div>
   );

@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React  from 'react';
 import Banner from './banner';
 import Skills from './skills';
 import Services from './services';
@@ -6,8 +6,8 @@ import Projects from './projects';
 
 
 
- class Home extends Component {
-  render() {
+ const Home = () => {
+  
     return (
       <div>
         <Banner />
@@ -17,6 +17,6 @@ import Projects from './projects';
       </div>
     )
   }
-}
+
 
 export default Home;

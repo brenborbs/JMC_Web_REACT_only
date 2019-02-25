@@ -1,20 +1,15 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Banner from './banner';
 import Desc from './desc';
-// import TankSurvey from './tank_survey';
-// import Blog from './blog';
 
- class OverviewTS extends Component {
-  render() {
-    return (
-      <div>
-        <Banner />
+
+const OverviewTS = () => {
+  return (
+    <div>
+       <Banner />
         <Desc />
-        {/* < TankSurvey/>
-        <Blog /> */}
-      </div>
-    )
-  }
-}
+    </div>
+  );
+};
 
 export default OverviewTS;

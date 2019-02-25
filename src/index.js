@@ -35,13 +35,3 @@ let render = () => {
     }
     
     render();
-
-
-// ReactDOM.render(
-// <BrowserRouter>
-//       <ScrollToTop>
-//             <App />
-//       </ScrollToTop>
-// </BrowserRouter>
-// , document.getElementById('root'));
-// serviceWorker.unregister();

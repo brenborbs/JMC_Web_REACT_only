@@ -1,10 +1,10 @@
-import React, { Component } from 'react';
+import React  from 'react';
 import Banner from './banner';
 import Detail from './detail';
 import Pie from './pie';
 
- class Service extends Component {
-  render() {
+ const Service =() => {
+  
     return (
       <div>
         <Banner />
@@ -13,6 +13,6 @@ import Pie from './pie';
       </div>
     )
   }
-}
+
 
 export default Service;

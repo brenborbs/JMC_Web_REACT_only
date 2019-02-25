@@ -1,16 +1,15 @@
-import React, { Component } from 'react';
+import React  from 'react';
 import DryDock from './dry_dock';
-// import Blog from './blog';
 
- class OverviewDD extends Component {
-  render() {
+
+ const OverviewDD =() => {
+  
     return (
       <div>
         <DryDock />
-        {/* <Blog /> */}
       </div>
     )
   }
-}
+
 
 export default OverviewDD;

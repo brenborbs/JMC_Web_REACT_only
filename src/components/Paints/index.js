@@ -1,9 +1,8 @@
-import React, { Component } from 'react';
+import React  from 'react';
 import PaintMain from './paintMain';
 import Banner from './banner';
 
- class Paint extends Component {
-  render() {
+ const Paint =() => {
 
     return (
       <div>
@@ -12,6 +11,6 @@ import Banner from './banner';
       </div>
     )
   }
-}
+
 
 export default Paint;

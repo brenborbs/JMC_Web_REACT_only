@@ -1,20 +1,16 @@
-import React, { Component } from 'react';
+import React  from 'react';
 import Banner from './banner';
 import Desc from './desc';
-// import PreSurvey from './pre_survey';
-// import Blog from './blog';
 
- class OverviewPS extends Component {
-  render() {
+ const OverviewPS =() => {
+  
     return (
       <div>
         <Banner />
         <Desc />
-        {/* < PreSurvey/>
-        <Blog /> */}
       </div>
     )
   }
-}
+
 
 export default OverviewPS;
