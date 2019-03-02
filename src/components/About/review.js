@@ -1,6 +1,6 @@
 import React from 'react';
 import Aidalog from '../../Resources/img/aidalogo.jpg';
-import { Link } from 'react-router-dom';
+
 
 const Review = () => {
   return (
@@ -32,10 +32,6 @@ const Review = () => {
         <h5>Staff Captain, AIDAaura</h5>
         <p>Very good performance of your team. I'm satisfied of all tank works they have done and always on time and precise. Maksym is a good leader and always provided feedback and suggestions.Also want to highlight the good behaviour in the public spaces and cooperation with the crew.</p>
       </div>
-    </div>
-    <div className="section-btn">
-      <Link to="/services" >Explore More</Link>
-      
     </div>
   </div>
   );

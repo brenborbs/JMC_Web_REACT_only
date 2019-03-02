@@ -1,5 +1,4 @@
 import React from 'react';
-// import { Link } from 'react-router-dom';
 import Video from './video';
 
 
@@ -17,7 +16,7 @@ const Paint_Tech = () => {
 
     <div className="container-fluid" >
       <div className="row" >
-          <div className="col-6 col-md-6">
+          <div className="col-sm-6">
             <div className="ptech-center" >
               <div className="ptech-item" >
                 <i className="fa fa-check"></i>
@@ -41,9 +40,9 @@ const Paint_Tech = () => {
                 <i className="fa fa-check"></i>
                 <p>Corrosion Study</p>
               </div>
-            </div>
+            </div> 
           </div>
-          <div className="col-6 col-md-6">
+          <div className="col-sm-6">
             <div className="p-video">
               <Video />
             </div>
