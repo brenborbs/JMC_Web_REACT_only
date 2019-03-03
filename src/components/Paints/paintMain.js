@@ -20,7 +20,7 @@ const mapState = (state) => ({
           <div className="title-underline"></div>
         </div>
           <div className="paint-project-container" >
-          <PaintDetail paints={paints} />
+          <PaintDetail paints={paints} /> 
           </div>
       </div>
     </section>
