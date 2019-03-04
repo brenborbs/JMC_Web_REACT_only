@@ -104,6 +104,7 @@ body {
 
 .topic_container p{
   font-size: 4vh;
+  text-align: justify;
 }
 
 /* skills section */
@@ -575,6 +576,7 @@ footer {
   line-height: 1.5;
   width: 75%;
   margin: 10px auto;
+  text-align: justify;
 }
 
 /*customer responsive*/
@@ -826,7 +828,9 @@ footer {
     
   }  
 }
-
+.v-serv-p, .serv-p, .p-ptech, .lead {
+  text-align: justify;
+}
 /* desc */
 #v-serv-desc {
   min-height: 60vh;
@@ -1115,6 +1119,7 @@ footer {
 
 .paint-text-container p {
   margin: 15px 0 25px 0;
+  text-align: justify;
 }
 
 @media screen and (min-width:576px) {
@@ -1186,5 +1191,6 @@ footer {
 
 .p-lead {
   color: whitesmoke;
+  text-align: justify;
 }
 

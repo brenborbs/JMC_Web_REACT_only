@@ -30,7 +30,7 @@ const Review = () => {
         <img src={Aidalog} alt="PPP"  />
         <h3>Mario Fois</h3>
         <h5>Staff Captain, AIDAaura</h5>
-        <p>Very good performance of your team. I'm satisfied of all tank works they have done and always on time and precise. Maksym is a good leader and always provided feedback and suggestions.Also want to highlight the good behaviour in the public spaces and cooperation with the crew.</p>
+        <p>Very good performance of your team. I'm satisfied of all tank works they have done and always on time and precise. Maksym is a good leader and always provided feedback and suggestions. Also want to highlight the good behaviour in the public spaces and cooperation with the crew.</p>
       </div>
     </div>
   </div>
