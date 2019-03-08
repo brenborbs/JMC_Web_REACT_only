@@ -13,16 +13,16 @@ const mapState = (state) => ({
 
     return (
     <section className="paint-projects" id="projects-p" >
-      
-      <div className="title" >
-        <div className="paint-title-text" >
-          <h1 style={{ color: 'white'}} >Case Studies</h1>
-          <div className="title-underline"></div>
+        <div className="title-case" >
+        <h1>Case Studies</h1>
+          <p>
+          The stories below contains some of our experiences while undertaking various projects worldwide. The cases includes photos to help explain some of the common challenges that will be encountered during various corrosion control projects.
+          </p>
         </div>
+        
           <div className="paint-project-container" >
           <PaintDetail paints={paints} /> 
           </div>
-      </div>
     </section>
     )
   }

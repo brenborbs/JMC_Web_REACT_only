@@ -1,27 +1,21 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 const PaintContentDetails = ({paint}) => {
   return (
     
       
     <div 
-    className="col-md-10"
-    style={{ paddingTop: '3em', letterSpacing: '2px'}} >
-    <img 
-    className="featurette-image img-fluid mx-auto" 
-    src={`${paint.photo}`} alt="paint" style={{ width: '80%' }} />
-    <p style={{ fontSize: '9px' }} >{paint.web}</p>
+    className="entry-content" >
     <h2 className="featurette-heading" 
     style={{ paddingTop:'1.5em'}} >{paint.title}</h2>
-      <p className="p-lead" > {paint.category}</p>
-      <p className="p-lead" > {paint.usage}</p>
-      <p className="p-lead" > {paint.prep}</p>
-      <p className="p-lead" > {paint.application}</p>
-      <div className="section-btn">
-      <Link to="/blog" >Go Back</Link>
-      
-    </div>
+    <p><strong>Category:</strong> {paint.category}</p>
+    <img 
+    className="featurette-image img-fluid mx-auto" 
+    src={`${paint.photo}`} alt="paint" style={{ width: '100%' }} />
+    <p style={{ fontSize: '9px' }} >{paint.web}</p>
+      <p> {paint.usage}</p>
+      <p> {paint.prep}</p>
+      <p> {paint.application}</p>
     </div>
     
     

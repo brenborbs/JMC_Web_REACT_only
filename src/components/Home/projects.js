@@ -20,8 +20,8 @@ const Projects = () => {
         <article className="projects-item">
           <img src={ImageOne} alt="One" />
           <div className="img-text">
-            <h1>AIDAstella</h1>
-            <h6>DD at Dubai</h6>
+            <h1>AIDAaura</h1>
+            <h6>Tank Repair</h6>
           </div>
           <div className="img-footer">
             <div className="footer-icon">
@@ -35,8 +35,8 @@ const Projects = () => {
         <article className="projects-item">
           <img src={ImageTwo} alt="Two"/>
           <div className="img-text">
-            <h1>AIDAluna</h1>
-            <h6>Tank Survey</h6>
+            <h1>AIDAstella</h1>
+            <h6>Dry Dock in Dubai</h6>
           </div>
           <div className="img-footer">
             <div className="footer-icon">
@@ -48,12 +48,11 @@ const Projects = () => {
         </article>
         
         <article className="projects-item">
-          <img src={ImageThree} alt="Three" 
-          // width='20em' height='40em' 
+          <img src={ImageThree} alt="Three"  
           />
           <div className="img-text">
-            <h1>AIDAbella</h1>
-            <h6>Tank Survey</h6>
+            <h1>AIDAella</h1>
+            <h6>Dry Dock in Marseille</h6>
           </div>
           <div className="img-footer">
             <div className="footer-icon">

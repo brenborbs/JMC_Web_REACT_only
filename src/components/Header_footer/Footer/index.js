@@ -18,17 +18,12 @@ const Footer = () => {
           <h5>Home</h5>
           <ul className="list-unstyled text-small">
             <li><Link className="text-muted" to="/">Explore</Link></li>
-            <li><Link className="text-muted" to="/">Services</Link></li>
-            <li><Link className="text-muted" to="/">Projects</Link></li>
           </ul>
         </div>
         <div className="col-6 col-md">
           <h5>About</h5>
           <ul className="list-unstyled text-small">
-          <li><Link className="text-muted" to="/about_us">Mission</Link></li>
           <li><Link className="text-muted" to="/about_us">Company</Link></li>
-          <li><Link className="text-muted" to="/about_us">Team</Link></li>
-          <li><Link className="text-muted" to="/about_us">Client Reviews</Link></li>
           </ul>
         </div>
         <div className="col-6 col-md">
@@ -49,8 +44,6 @@ const Footer = () => {
           <h5>Contact</h5>
           <ul className="list-unstyled text-small">
           <li><Link className="text-muted" to="/contact">Solutions</Link></li>
-          <li><Link className="text-muted" to="/contact">JMC Info</Link></li>
-          <li><Link className="text-muted" to="/contact">Community Sponsorships</Link></li>
           </ul>
         </div>
         <div className="col-6 col-md">

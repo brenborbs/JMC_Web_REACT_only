@@ -16,18 +16,18 @@ const mapState = (state, ownProps) => {
     paint
   }
 }
-
+ 
 
  const PaintContent = ({ paint }) => {
    return (
      <div 
-     className="con-exp-section_style" 
+     className="container-blog" 
      >
-      <div className="row featurette">
-        
+      <div className="row">
+        <div className="col full" >
           <PaintContentDetail 
           paint={paint} />
-        
+        </div>
       </div>
      </div>
    );

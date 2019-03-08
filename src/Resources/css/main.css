@@ -1052,31 +1052,43 @@ footer {
   margin: 10px auto;
   border: 3px solid #e6af2e;
 }
-
-/* Paint Lessons */
-.paint-title {
+/*  */
+.exp-section_style {
+  padding: 12vh 10vw 10vh;
+}
+.title {
   margin: 40px 0;
 }
-
-.paint-title-text {
+.title-text {
   text-align: center;
   font-size: 40px;
-  color: white;
-  /* font-style: italic; */
   text-transform: uppercase;
 }
-
-#projects-p {
-  background: linear-gradient(to right, #000046, #1cb5e0);
-  padding: 20px 0 80px 0; 
+.title-underline {
+  width: 200px;
+  border: 3px solid #e6af2e;
+  margin: 0 auto;
+}
+/* Paint Lessons */
+.paint-title-text {
+  text-align: center;
+}
+@media screen and (max-width:1050px) {
+  .title-case {
+    margin: 40px 0px 0px 30px;
+  }
 }
 
+@media screen and (min-width:992px) {
+  .title-case {
+    margin: 40px 40px 0px 60px;
+    line-height: 2.0;
+  }
+}
 .paint-project-container {
   max-width: 90vw;
   margin: 0 auto;
-
 }
-
 .paint-project-item {
   background-color: white ;
   color: #191716;
@@ -1140,8 +1152,6 @@ footer {
   }
 }
 
-
-
 .blog-banner-con {
   min-height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/john-maravelakis-267-unsplash.jpg);
@@ -1179,18 +1189,34 @@ footer {
   padding-bottom: 15em;
 }
 
-.con-exp-section_style {
+.container-blog {
   padding-top: 8vh;
-  padding-bottom: 10vh;
-  padding-right: 10vw;
-  padding-left: 10vw;
-  background: url(../img/gilberto-parada-423754-unsplash.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
+  margin: 0 auto;
+  max-width: 800px;
+  width: 90%;
+  background-color: #fff;
+}
+.col.full {
+  padding-top: 3em;
+  padding-bottom: 5em;
+}
+@media (min-width: 769px) {
+  .col.full {
+    width: 100%
+  }
+}
+@media (min-width: 769px) {
+  float: left;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 0;
 }
 
-.p-lead {
-  color: whitesmoke;
+.entry-content p {
   text-align: justify;
+  color: #222;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 2.0;
 }
 

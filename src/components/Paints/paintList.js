@@ -17,7 +17,7 @@ import { Link } from 'react-router-dom';
                 <h4>{paint.title}</h4>
                 <p>{paint.summary}</p>
                 <Link 
-              className="btn btn-outline-secondary"
+              className="btn btn-outline-danger"
               to={`/blog/${paint.id}`} >Read More...
               </Link>
               </div>
