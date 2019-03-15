@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import MemberList from './memberList';
 
-// import Diag from '../../Resources/img/jmc_diag.png';
 import Bren from '../../Resources/img/brennon.JPG';
 import Mart from '../../Resources/img/martin.png';
 import Olek from '../../Resources/img/olekA.png';

@@ -16,4 +16,4 @@ import Service from './service';
   }
 }
 
-export default ServiceList;
+export default ServiceList; 

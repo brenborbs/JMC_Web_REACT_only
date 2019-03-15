@@ -10,12 +10,6 @@ const Tank_Surv = () => {
           <h1>Actual Breakdown Assestment</h1>
         </div>
         <div className="title-underline"></div>
-         {/* <p style={{ 
-          textAlign: 'center' , 
-          paddingTop: '5px', 
-          letterSpacing: '2px' , 
-          fontSize: '25px', 
-          fontStyle: 'italic'}}>We are here for you</p>  */}
       </div>
 
   <div id="v-serv-desc"  >

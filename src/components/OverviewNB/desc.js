@@ -1,6 +1,4 @@
 import React from 'react';
-// import { Link } from 'react-router-dom';
-
 
 const Dry_Dock = () => {
   return (
@@ -12,12 +10,6 @@ const Dry_Dock = () => {
           <h1>New Buildings</h1>
         </div>
         <div className="title-underline"></div>
-         {/* <p style={{ 
-          textAlign: 'center' , 
-          paddingTop: '5px', 
-          letterSpacing: '2px' , 
-          fontSize: '25px', 
-          fontStyle: 'italic'}}>We are here for you</p>  */}
       </div>
 
   <div id="v-serv-desc"  >
@@ -56,10 +48,6 @@ const Dry_Dock = () => {
     </section>
     
   </div>
-  {/* <div className="section-btn">
-      <Link to="/contact" >Contact Us</Link>
-    </div>  */}
-      
     </div>
   );
 };
