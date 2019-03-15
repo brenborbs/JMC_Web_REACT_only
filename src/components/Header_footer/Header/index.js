@@ -42,6 +42,7 @@ import Logo from '../../../Resources/img/logo.jpg';
           <Link className="dropdown-item" to="/services/overview_newBuildings">New Buildings</Link>
           <Link className="dropdown-item" to="/services/overview_consulting">Consulting</Link>
           <Link className="dropdown-item" to="/services/overview_in-service">In-Service Repair</Link>
+          <Link className="dropdown-item" to="/services/overview_newBuild-PaintSurvey">New-build Paint Survey</Link>
         </div>
       </li>
             

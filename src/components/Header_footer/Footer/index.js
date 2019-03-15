@@ -38,6 +38,7 @@ const Footer = () => {
           <li><Link className="text-muted" to="/services/overview_newBuildings">New Buildings</Link></li>
           <li><Link className="text-muted" to="/services/overview_consulting">Consulting</Link></li>
           <li><Link className="text-muted" to="/services/overview_in-service">In Service</Link></li>
+          <li><Link className="text-muted" to="/services/overview_newBuild-PaintSurvey">New-build Paint Survey</Link></li>
           </ul>
         </div>
         <div className="col-6 col-md">

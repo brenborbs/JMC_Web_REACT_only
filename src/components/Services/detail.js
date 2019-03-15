@@ -8,7 +8,8 @@ import PhotR from '../../Resources/img/tank1.JPG';
 import PhotT from '../../Resources/img/fore.JPG';
 import PhotY from '../../Resources/img/expd.JPG';
 import PhotX from '../../Resources/img/fdeck.JPG';
-
+import PhotZ from '../../Resources/img/tank2.JPG';
+ 
  class Detail extends Component {
    
     state = {
@@ -62,7 +63,14 @@ import PhotX from '../../Resources/img/fdeck.JPG';
         title: "In-Service Repair",
         desc: "On board your ship",
         url: '/services/overview_in-service'
-      }
+      },
+      {
+        id: 7,
+        img: PhotZ,
+        title: "New-Building Guarantee Paint Survey",
+        desc: "On all shipyards globally",
+        url: '/services/overview_newBuild-PaintSurvey'
+      },
       ]
     }
    

@@ -38,8 +38,6 @@ const Address = () => {
       <img src={Mart} alt="img" />
         <h2>Martin Jennet</h2>
         <h5>Owner</h5>
-        <hr />
-        <p>Guarantee Surveys</p><p>Pre-Dry Docking Surveys</p><p>Dry Docking Supervision</p><p>On-Board Tutoring</p><p>Claims Support</p>
           <div>
             <h5 style={{ fontSize: '18px'}} ><i className="fas fa-envelope"></i> mje@jmc-limited.com</h5>
         </div>  

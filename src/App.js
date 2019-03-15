@@ -15,6 +15,7 @@ import Overview_TS from './components/OverviewTS';
 import Overview_NB from './components/OverviewNB';
 import Overview_CN from './components/OverviewCN';
 import Overview_SV from './components/OverviewSV';
+import Overview_NBPS from './components/OverviewNBPS';
 import Page404 from './hoc/404';
 
 import Paint from './components/Paints';
@@ -38,6 +39,7 @@ class App extends Component {
       <Route path='/services/overview_newBuildings' exact component={Overview_NB} />
       <Route path='/services/overview_consulting' exact component={Overview_CN} />
       <Route path='/services/overview_in-service' exact component={Overview_SV} />
+      <Route path='/services/overview_newBuild-PaintSurvey' exact component={Overview_NBPS} />
       <Route component={Page404} />
         </Switch>
       </Layout>
