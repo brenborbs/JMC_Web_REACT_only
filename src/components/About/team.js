@@ -14,10 +14,10 @@ class Team extends Component {
         id: 0,
         img: Mart,
         name: "Martin Jennet",
-        dept: "Owner, Sales & Client Relations",
+        dept: "Head, Dry Dockings",
         email: "mje@jmc-limited.com",
         area: [
-          "Company Management","Client Care", "New Business Concepts", "Technical Support"
+          "Pre-Drydocking Surveys","Dry Docking Supervision", "On-Board tutoring", "Support"
         ]
       },
       {
@@ -44,10 +44,10 @@ class Team extends Component {
         id: 3,
         img: Mart,
         name: "Martin Jennet",
-        dept: "Head, Dry Dockings",
+        dept: "Owner, Sales & Client Relations",
         email: "mje@jmc-limited.com",
         area: [
-          "Pre-Drydocking Surveys","Dry Docking Supervision", "On-Board tutoring", "Support"
+          "Company Management","Client Care", "New Business Concepts", "Technical Support"
         ]
       },
     ]
