@@ -20,7 +20,7 @@ const In_Service = () => {
             <div className="ptech-center" >
               <div className="ptech-item" >
                 <i className="fa fa-check"></i>
-                <p>Hydro-Jet Washing</p>
+                <p>Hydro-Jetting</p>
               </div>
             </div>
             <div className="ptech-center" >

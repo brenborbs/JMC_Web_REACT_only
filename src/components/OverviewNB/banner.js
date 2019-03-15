@@ -7,7 +7,7 @@ const Banner = () => {
       <div className="cap-banner-box-con">
         <h1 className="cap-banner-title-con">Our Capabilities - Your Solutions</h1>
         <div className="cap-banner-underline-con"></div>
-        <h3 className="cap-banner-subtitle-con">We have completed and helped many Shipowners in providing Corrosion Solutions in their fleet.</h3>
+        <h3 className="cap-banner-subtitle-con">We have supported many shipowners to incorporate viable corrosion solutions to their new vessels</h3>
       </div>
     </div>
     

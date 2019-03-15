@@ -1,7 +1,7 @@
 import React from 'react';
 // import { Link } from 'react-router-dom';
 import Cover from '../../Resources/img/ReportCover.png';
-import Intro from '../../Resources/img/intro.png'; //
+import Intro from '../../Resources/img/intro2.png'; //
 import Scope from '../../Resources/img/scope.png'; //
 import Eval from '../../Resources/img/detail.png'; //
 import Photo from '../../Resources/img/photos.png';
@@ -19,11 +19,6 @@ const Report = () => {
           <h1 style={{ color: 'white' }} >JMC Sample Report</h1>
         </div>
         <div className="title-underline"></div>
-            
-            <div className="sample_text" >
-              {/* <p>A glimpse on a submitted report from a previous project. You can check below.</p> */}
-            </div>
-              
             <div className="projects-container" style={{ paddingTop: '3em' }}  >
         
         <article className="p-projects-item">

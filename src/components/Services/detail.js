@@ -24,7 +24,7 @@ import PhotX from '../../Resources/img/fdeck.JPG';
         {
          id: 1,
          img: PhotW,
-         title: "Pre-Surveys",
+         title: "Pre-Docking Survey",
          desc: "On board each ship",
          url: '/services/overview_preSurveys'
        },

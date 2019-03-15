@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
 import MemberList from './memberList';
 
-import Diag from '../../Resources/img/jmc_diag.png';
+// import Diag from '../../Resources/img/jmc_diag.png';
 import Bren from '../../Resources/img/brennon.JPG';
 import Mart from '../../Resources/img/martin.png';
 import Olek from '../../Resources/img/olekA.png';
-import Ignacio from '../../Resources/img/image_not_availble.png';
 
 class Team extends Component {
 
@@ -13,12 +12,12 @@ class Team extends Component {
     members : [
       {
         id: 0,
-        img: Ignacio ,
-        name: "Ignacio",
-        dept: "Head, Department",
-        email: "tech@jmc-limited.com",
+        img: Mart,
+        name: "Martin Jennet",
+        dept: "Owner, Sales & Client Relations",
+        email: "mje@jmc-limited.com",
         area: [
-          "Yard review and selection","New Building Supervision", "Delivery Negotiations", "Claims Handling"
+          "Company Management","Client Care", "New Business Concepts", "Technical Support"
         ]
       },
       {
@@ -62,9 +61,6 @@ class Team extends Component {
         <h1 className="title-text" style={{ color: 'white' }} >Our Team</h1>
         <div className="title-underline"></div>
       </div>
-        <div className="jmc_diag" >
-          <img src={Diag} alt="dia"/>
-        </div> 
         <MemberList 
         members={members}
         />

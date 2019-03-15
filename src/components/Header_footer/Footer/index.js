@@ -31,8 +31,8 @@ const Footer = () => {
           <ul className="list-unstyled text-small">
           <li><Link className="text-muted" to="/services">Cases</Link></li>
           <li><Link className="text-muted" to="/services">Our Services</Link></li>
-          <li><Link className="text-muted" to="/services/overview_drydockings">Drydockings</Link></li>
-          <li><Link className="text-muted" to="/services/overview_preSurveys">Pre-Surveys</Link></li>
+          <li><Link className="text-muted" to="/services/overview_drydockings">Dry-docking</Link></li>
+          <li><Link className="text-muted" to="/services/overview_preSurveys">Pre-Docking Survey</Link></li>
           <li><Link className="text-muted" to="/services/overview_paintTechnology">Paint Technology</Link></li>
           <li><Link className="text-muted" to="/services/overview_tankSurveys">Tank Surveys</Link></li>
           <li><Link className="text-muted" to="/services/overview_newBuildings">New Buildings</Link></li>

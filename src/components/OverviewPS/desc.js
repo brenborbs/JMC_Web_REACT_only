@@ -1,6 +1,5 @@
 import React from 'react';
-// import { Link } from 'react-router-dom';
-
+import ReactPlayer from 'react-player';
 
 const Dry_Dock = () => {
   return (
@@ -9,15 +8,18 @@ const Dry_Dock = () => {
     >
       <div className="title" >
       <div className="title-text" >
-          <h1>Pre-Surveys</h1>
-        </div>
+          <h1>Pre-Docking Survey</h1>
+        </div> 
         <div className="title-underline"></div>
-         {/* <p style={{ 
-          textAlign: 'center' , 
-          paddingTop: '5px', 
-          letterSpacing: '2px' , 
-          fontSize: '25px', 
-          fontStyle: 'italic'}}>We are here for you</p>  */}
+         
+          <div className='player-wrapper' style={{ marginTop: '3em' }} >
+        <ReactPlayer
+          className='react-player'
+          url='https://www.youtube.com/watch?v=qsTP1aMnlfM'
+          width='100%'
+          height='100%'
+        />
+      </div>
       </div>
 
   <div id="v-serv-desc"  >
@@ -42,15 +44,12 @@ const Dry_Dock = () => {
       </div>
     </section>
     <section id="v-serv-map">
-    <p className="v-serv-p">Before your ship will enter it's dry docking schedule, several tanks in vessel will need to be check in order to know which tanks will be treated during the dry docking period. The extent of the corrosion may be unknown but with our experties, we can do the survey for you and come up with actual corrosion assestment on the tanks. This assestment will serve as your guide during the drydocking, thus giving you savings as most shipyards will mostly charge you in excess for some areas which can be easily repaired by your crew.</p>
-    <p className="v-serv-p">Prior entering the dry docking schedule, paint manufacturers will submit their paint consumption calculations according to their estimates. Usually, the calculations has been done on their offices without even knowing the actual situation aboard your ship. In JMC, we will conduct an all around pre-assestment survey on the entire hull plating and give you our calculations basing on what we have seen on your ship and not by random guesswork.</p> 
+    <p className="v-serv-p">The proper planning process of a dry-docking should entail a pre-docking paint survey.</p>
+    <p className="v-serv-p">During the survey we will perform inspection of all available tanks and exterior areas. The inspection will result in a comprehensive report. The report will give the superintendent a detailed “picture” of the condition of the inspected areas, with correct extent, degree of breakdown and professional suggestions to surface treatment. </p> 
+    <p className="v-serv-p">The report will serve as the guideline during initial owner/yard scope of work discussions, thereby ensure that no change orders or extra cost will occur during the dry-docking.</p>
     </section>
     
-  </div>
-  {/* <div className="section-btn">
-      <Link to="/contact" >Contact Us</Link>
-    </div>  */}
-      
+  </div> 
     </div>
   );
 };

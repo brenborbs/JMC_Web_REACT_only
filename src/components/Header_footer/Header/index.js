@@ -35,8 +35,8 @@ import Logo from '../../../Resources/img/logo.jpg';
         <div className="dropdown-menu" aria-labelledby="navbarDropdown">
           <Link className="dropdown-item" to="/services">Go To Services</Link>
           <div className="dropdown-divider"></div>
-          <Link className="dropdown-item" to="/services/overview_drydockings">Drydockings</Link>
-          <Link className="dropdown-item" to="/services/overview_preSurveys">Pre Surveys</Link>
+          <Link className="dropdown-item" to="/services/overview_drydockings">Dry-Docking</Link>
+          <Link className="dropdown-item" to="/services/overview_preSurveys">Pre-Docking Survey</Link>
           <Link className="dropdown-item" to="/services/overview_paintTechnology">Paint Technology</Link>
           <Link className="dropdown-item" to="/services/overview_tankSurveys">Tank Surveys</Link>
           <Link className="dropdown-item" to="/services/overview_newBuildings">New Buildings</Link>

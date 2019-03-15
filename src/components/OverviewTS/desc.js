@@ -1,6 +1,4 @@
 import React from 'react';
-// import { Link } from 'react-router-dom';
-
 
 const Tank_Surv = () => {
   return (
@@ -9,7 +7,7 @@ const Tank_Surv = () => {
     >
       <div className="title" >
       <div className="title-text" >
-          <h1>Actual Damage Assestment</h1>
+          <h1>Actual Breakdown Assestment</h1>
         </div>
         <div className="title-underline"></div>
          {/* <p style={{ 
@@ -42,17 +40,12 @@ const Tank_Surv = () => {
       </div>
     </section>
     <section id="v-serv-map">
-    <p className="v-serv-p">As your ship begins to age, existing paint damages inside the tanks will need to be monitored and checked, thus giving you information if when the tanks may need to be treated. Recent IMO guidelines are also required that the tanks need to be in "GOOD" condition to get acceptance certificates from class surveys. In JMC, we will do the tank survey prior any class surveys and provide you with an extensive report on the damages and rectification estimates.</p>
-    <p className="v-serv-p">If the situation of the tanks are in "POOR" condition as per IMO tank guidelines, we will help you in supervising the tank repairs with the contractors, ensuring proper quality rectification at a reasonable cost.
-
-</p> 
+    <p className="v-serv-p">As your ship begins to age, existing paint breakdown in the tanks will need to be monitored and checked, thus giving you information on the need and extent of breakdown, for  considerations as to remedial action.</p>
+    <p className="v-serv-p">In JMC, we will do the tank survey prior any class surveys and provide you with an extensive report on the coating breakdown and rectification suggestions.
+    </p>
+    <p className="v-serv-p">If the tank condition of the tanks are "POOR" as per IMO tank guidelines, we will help you in supervising the tank repairs with the contractors, ensuring the necessary and proper rectification with the budget in mind.</p> 
     </section>
-    
   </div>
-  {/* <div className="section-btn">
-      <Link to="/contact" >Contact Us</Link>
-    </div>  */}
-      
     </div>
   );
 };

@@ -27,7 +27,7 @@ const Projects = () => {
             <div className="footer-icon">
             </div>
             <div className="footer-date">
-              March 3, 2018
+            August 18, 2018 
             </div>
           </div>
         </article>
@@ -42,7 +42,7 @@ const Projects = () => {
             <div className="footer-icon">
             </div>
             <div className="footer-date">
-              August 18, 2018
+              March 3, 2018
             </div>
           </div>
         </article>
@@ -51,7 +51,7 @@ const Projects = () => {
           <img src={ImageThree} alt="Three"  
           />
           <div className="img-text">
-            <h1>AIDAella</h1>
+            <h1>AIDAbella</h1>
             <h6>Dry Dock in Marseille</h6>
           </div>
           <div className="img-footer">
