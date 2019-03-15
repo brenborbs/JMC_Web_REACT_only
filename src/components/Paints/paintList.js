@@ -4,9 +4,7 @@ import { Link } from 'react-router-dom';
  class PaintList extends Component {
   render() {
     const {paint} = this.props;
-    return (
-          
-              
+    return (     
       <article className="paint-project-item" >
               <div className="paint-img-container" >
                   <img  
@@ -21,11 +19,7 @@ import { Link } from 'react-router-dom';
               to={`/blog/${paint.id}`} >Read More...
               </Link>
               </div>
-            </article>
-      
-    
-            
-          
+      </article>
     )
   }
 }

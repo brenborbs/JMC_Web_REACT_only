@@ -33,8 +33,6 @@ body {
 .sample_section_style {
   padding-top: 12vh;
   padding-bottom: 10vh;
-  /* padding-right: 10vw;
-  padding-left: 10vw; */
 }
 .sample_text p {
   text-align: center;
@@ -48,8 +46,6 @@ body {
 
 /* navbar2 */
 .phone-icon {
-  /* color: var(--mainGreen); */
-  /* border: 0.1rem solid var(--mainGreen); */
   padding: 0.5rem;
   border-radius: 50%;
 }
@@ -388,7 +384,6 @@ footer h5 {
 footer {
   background-color: #212342;
   padding: 20px;
-  /* display: flex; */
   flex-wrap: wrap;
   justify-content: space-between;
 }
@@ -465,16 +460,13 @@ footer {
 }
 
 .contact-form {
-  /* background: #f5f3f5; */
   padding: 0;
   width: 80%;
   margin: 0 auto;
-  /* border-radius: 20px */
 }
 
 .contact-form h3 {
   width: 100%;
-  /* background: darkblue; */
   text-align: center;
   text-transform: capitalize;
   padding: 20px;
@@ -485,7 +477,6 @@ footer {
 
 .contact-form {
   text-align: center;
-  /* color: black; */
 }
 
 @media screen and (min-width:776px) {
@@ -695,7 +686,6 @@ footer {
   padding: 10px;
   background: #f5f5f5;
   border-radius: 50%;
-  /* transition: transform 2s ease, background 2s ease; */
 }
 
 .image-overlay .fa:hover {
@@ -716,7 +706,6 @@ footer {
   font-size: 30px;
   color: black;
   background: #e6af2e;
-  /* transition: background 2s ease, color 2s ease; */
 }
 
 .section-btn a:hover {
@@ -751,14 +740,12 @@ footer {
 
 /* Drydock */
 #serv-desc {
-  /* padding: 40px 0; */
   min-height: 60vh;
 }
 
 .serv-info-center,
  {
   width: 90%;
-
   margin: 40px auto;
 }
 
@@ -777,7 +764,6 @@ footer {
 
 .serv-center {
   width: 90%;
-  /* letter-spacing: 2px; */
   font-size: 18px ;
   margin: 40px auto;
 }
@@ -789,14 +775,12 @@ footer {
     font-size: 18px;
   }
   #serv-info {
-    /* display: flex; */
     align-items: center;
   }
 }
 
 .ptech-center {
   width: 90%;
-  /* letter-spacing: 2px; */
   font-size: 18px ;
   margin: 40px auto;
 }
@@ -857,15 +841,11 @@ footer {
 
 .v-serv-center {
   width: 90%;
-  /* letter-spacing: 2px; */
   font-size: 18px ;
   margin: 40px auto;
 }
 
 @media screen and (min-width:776px) {
-  /* #v-serv-desc {
-    display: flex;
-  } */
   #v-serv-info,
   #v-serv-map 
   {
@@ -1030,7 +1010,6 @@ footer {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  /* padding: 20px 0 80px 0; */
   display: flex; 
   align-items: center;
   justify-content: center;
