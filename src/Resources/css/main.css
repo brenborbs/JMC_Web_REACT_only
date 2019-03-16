@@ -22,15 +22,9 @@ body {
 }
 
 /* report page */
-.report-img {
-  background: linear-gradient(to right, #283048, #859398); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  background-size: cover;
-  background-repeat: no-repeat;
-  
-}
 
 /* Homepage sample report */
-.sample_section_style {
+/* .sample_section_style {
   padding-top: 12vh;
   padding-bottom: 10vh;
 }
@@ -42,7 +36,7 @@ body {
 .sample_content {
   padding-top: 5em;
   text-align: center;
-}
+} */
 
 /* navbar2 */
 .phone-icon {
@@ -62,10 +56,31 @@ body {
   color: white;
 }
 
-/* Carousel */
+/* Home Carousel */
+.slider-container .slider-banner {
+  min-height: 90vh;
+  position:relative;
+  background-size: cover !important;
+  background-position: center !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+.slider-text {
+  font-size: 50px;
+  text-transform: uppercase;
+  color: #e0e2db;
+}
+.slider-underline {
+  width: 200px;
+  border: 3px solid #e6af2e;
+  margin: 10px auto 20px auto;
+  color: white;
+  text-align: center;
+}
 
 /* banner dude */
-.banner {
+/* .banner {
   min-height: 90vh;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../Resources/img/background.jpg);
   background-attachment: fixed;
@@ -89,7 +104,7 @@ body {
   margin: 10px auto 20px auto;
   color: white;
   text-align: center;
-}
+} */
 
 .topic_section_style{
   /* padding-top: 12vh;  */
