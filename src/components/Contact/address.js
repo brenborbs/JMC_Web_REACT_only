@@ -27,7 +27,7 @@ const Address = () => {
             <h3>Give Us A Call</h3>
             <p>Martin Leif Jennet</p>
             <p>+45 - 2889 - 1525</p>
-            <p>Mon - Fri, 8.00 a.m - 22.00 p.m</p>
+            <p>Monday - Friday, 24:00 hrs.</p>
           </div>
         </div>
       </div>

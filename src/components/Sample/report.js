@@ -1,4 +1,5 @@
 import React from 'react';
+import Slider from 'react-slick';
 import Cover from '../../Resources/img/ReportCover.png';
 import Intro from '../../Resources/img/intro2.png'; //
 import Scope from '../../Resources/img/scope.png'; //
@@ -50,28 +51,44 @@ const Report = () => {
     }
   ]
 
+  const settings = {
+    className: "center",
+    centerMode: true,
+    infinite: true,
+    // autoplay: true,
+    // centerPadding: "60px",
+    slidesToShow: 1,
+    speed: 500,
+  };
+
   const generateSample = () => (
+    sample ?
     sample.map(( item , i) => (
       <div key={i} >
-          <article className="p-projects-item">
-            <div style={{ textAlign: 'center' , color: 'white', textDecoration: 'underline', textTransform: 'uppercase' }} >
-            <h4>{item.page}</h4>
-          </div>
-          <img src={item.img} alt="One" style={{ width: '100%' }} />
-        </article>
+        <div className="reports-text" >
+              <h3 style={{ paddingBottom: '5px', textTransform: 'uppercase', fontSize: '20px' }} >{item.page}</h3>
+              <div style={{ padding: '0px 35px 0px 35px' }} >
+                <img src={item.img} alt="sponsor-img"/>
+              </div>
+        </div>
       </div>
     ))
+    : null
   )
 
   return (
-    <div className="sample_section_style" >
+    <div className="projects" style={{ backgroundColor: '#b5c2b7' }} >
     <div className="title">
         <div className="title-text">
-          <h1 style={{ color: 'white' }} >JMC Sample Report</h1>
+          <h1 style={{ paddingTop: '2em' }} >JMC Sample Report</h1>
         </div>
         <div className="title-underline"></div>
-            <div className="projects-container" style={{ paddingTop: '3em' }}  >
-                  {generateSample()}
+        <p style={{ textAlign:'center' , paddingTop: '1.5em' }}><strong>JMC Limited</strong> report that will serve as the guideline during initial owner/yard scope of work discussions.</p><p style={{ textAlign:'center'}}>Our clients will receive similar report scope during the project.</p>
+            <div className="report-container">
+              <Slider {...settings} >
+              {generateSample()}
+              </Slider>
+                  
             </div>
       </div>
 </div>

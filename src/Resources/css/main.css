@@ -987,18 +987,6 @@ footer {
   }
 }
 
-.sponsor-section_style {
-  background: lightblue;
-  padding-top: 5px;
-  padding-bottom: 15px;
-}
-.sponsor {
-  text-align: center;
-}
-.sponsor p {
-  letter-spacing: 2px;
-}
- 
 /* capabilities */
 #capability {
   background: 'lightgrey';
@@ -1197,4 +1185,24 @@ footer {
   font-weight: 400;
   line-height: 2.0;
 }
-
+/* Sponsor Slider */
+.sponsor-container {
+  padding-top: 8vh;
+  margin: 0 auto;
+  max-width: 480px;
+  width: 90%;
+}
+.sponsor-container p {
+  text-align: justify;
+}
+/* Report Slider */
+.report-container {
+  padding-top: 6vh;
+  margin: 0 auto;
+  max-width: 580px;
+  width: 90%;
+  background-color: darkcyan;
+}
+.reports-text {
+  text-align: center;
+}
