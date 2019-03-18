@@ -29,7 +29,7 @@ const Sponsor = (props) => {
     className: "slider variable-width",
     dots: false,
     infinite: true,
-    speed: 500,
+    speed: 2500,
     autoplay: true,
     // slidesToShow: 1,
     // slidesToScroll: 1,
