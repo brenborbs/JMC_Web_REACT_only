@@ -44,7 +44,7 @@ const Dry_Dock = () => {
     <section id="v-serv-map">
     <p className="v-serv-p">With our strong communication and relationships with many
     shipbuilders worldwide. Having a dedicated team of highly trained and experienced professionals enables us to handle various types of newbuilding, drydockings and conversion projects at your disposal and assist you from pre-contract negotiations to vessel delivery and beyond, <strong>full service guarantee.</strong></p>
-    <p className="v-serv-p">Staring from design to steel cutting, blocks stage to launching, after-launching to final outfitting and then finally, towards sea-trial and delivery. We can help you with our expertise in this field and ensure getting your vessels get the proper standards from the shipyards.</p> 
+    <p className="v-serv-p">Starting from design to steel cutting, blocks stage to launching, after-launching to final outfitting and then finally, towards sea-trial and delivery. We can help you with our expertise in this field and ensure getting your vessels get the proper standards from the shipyards.</p> 
     </section>
     
   </div>

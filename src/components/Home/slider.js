@@ -34,7 +34,7 @@ const HomeSlider = () => {
   const settings = {
     dots: false,
     infinite: true,
-    speed: 2000,
+    speed: 3500,
     autoplay: true,
     // slidesToShow: 1,
     // slidesToScroll: 1,
