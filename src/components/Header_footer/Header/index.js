@@ -36,15 +36,15 @@ class Header extends Component {
         className="navbar fixed-top navbar-expand-lg navbar-dark px-5"
         // color="light" light expand="md"
         >
-          <NavbarBrand href="/"><img src={Logo} alt="company logo" width="40" height="35" />JMC-Limited</NavbarBrand>
+          <NavbarBrand tag={Link} to="/"><img src={Logo} alt="company logo" width="40" height="35" />JMC-Limited</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="mx-auto" navbar>
               <NavItem>
-                <NavLink href="/">Home</NavLink>
+                <NavLink tag={Link} to="/">Home</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/about_us">About</NavLink>
+                <NavLink tag={Link} to="/about_us">About</NavLink> 
               </NavItem>
               <UncontrolledDropdown nav inNavbar>
                 <DropdownToggle nav caret>
@@ -77,18 +77,18 @@ class Header extends Component {
                   <Link className="dropdown-item" to="/services/overview_in-service">In-Service Repair</Link>
                   </DropdownItem>
                   <DropdownItem>
-                  <Link className="dropdown-item" to="/services/overview_newBuild-PaintSurvey">New-build Paint Survey</Link>
+                  <Link className="dropdown-item" to="/services/overview_newBuild-PaintSurvey">New-Build Paint Survey</Link>
                   </DropdownItem>
                 </DropdownMenu>
               </UncontrolledDropdown>
               <NavItem>
-                <NavLink href="/contact">Contact</NavLink>
+                <NavLink tag={Link} to="/contact">Contact</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/report">Report</NavLink>
+                <NavLink tag={Link} to="/report">Report</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/blog">Blog</NavLink>
+                <NavLink tag={Link} to="/blog">Blog</NavLink>
               </NavItem>
               <NavItem className="d-none d-lg-flex align-items-baseline">
             <p className="text-white mx-4">

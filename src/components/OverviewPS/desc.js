@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactPlayer from 'react-player';
+import Video from './PSvideo';
 
 const Dry_Dock = () => {
   return (
@@ -11,15 +11,7 @@ const Dry_Dock = () => {
           <h1>Pre-Docking Survey</h1>
         </div> 
         <div className="title-underline"></div>
-         
-          <div className='player-wrapper' style={{ marginTop: '3em' }} >
-        <ReactPlayer
-          className='react-player'
-          url='https://www.youtube.com/watch?v=qsTP1aMnlfM'
-          width='100%'
-          height='100%'
-        />
-      </div>
+        <Video />
       </div>
 
   <div id="v-serv-desc"  >
