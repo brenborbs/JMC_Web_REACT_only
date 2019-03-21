@@ -1,72 +1,109 @@
 import React, { Component } from 'react';
+import {
+  Collapse,
+  Navbar,
+  NavbarToggler,
+  NavbarBrand,
+  Nav,
+  NavItem,
+  NavLink,
+  UncontrolledDropdown,
+  DropdownToggle,
+  DropdownMenu,
+  DropdownItem } from 'reactstrap';
 import { Link } from 'react-router-dom';
 
 import Logo from '../../../Resources/img/logo.jpg';
 
- class Header extends Component {
- 
+class Header extends Component {
+  constructor(props) {
+    super(props);
+
+    this.toggle = this.toggle.bind(this);
+    this.state = {
+      isOpen: false
+    };
+  }
+  toggle() {
+    this.setState({
+      isOpen: !this.state.isOpen
+    });
+  }
   render() {
     return (
-      <nav className="navbar fixed-top navbar-expand-lg navbar-dark px-5">
-        
-        <Link to="/" className="navbar-brand">
-          <img src={Logo} alt="company logo" width="40" height="35" /> JMC-Limited
-        </Link>
-        <button
-          className="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#myNavbar"
+      <div>
+        <Navbar 
+        className="navbar fixed-top navbar-expand-lg navbar-dark px-5"
+        // color="light" light expand="md"
         >
-          <span className="navbar-toggler-icon"></span>
-        </button>
-        <div className="collapse navbar-collapse" id="myNavbar">
-          <ul className="navbar-nav mx-auto">
-            <li className="nav-item">
-              <Link to="/" className="nav-link">Home</Link>
-            </li>
-            <li className="nav-item ">
-              <Link to="/about_us" className="nav-link">About</Link>
-            </li>
-            
-            <li className="nav-item dropdown">
-      <Link className="nav-link dropdown-toggle" to="/services" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >Services
-      </Link>
-        <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-          <Link className="dropdown-item" to="/services">Go To Services</Link>
-          <div className="dropdown-divider"></div>
-          <Link className="dropdown-item" to="/services/overview_drydockings">Dry-Docking</Link>
-          <Link className="dropdown-item" to="/services/overview_preSurveys">Pre-Docking Survey</Link>
-          <Link className="dropdown-item" to="/services/overview_paintTechnology">Paint Technology</Link>
-          <Link className="dropdown-item" to="/services/overview_tankSurveys">Tank Surveys</Link>
-          <Link className="dropdown-item" to="/services/overview_newBuildings">New Buildings</Link>
-          <Link className="dropdown-item" to="/services/overview_consulting">Consulting</Link>
-          <Link className="dropdown-item" to="/services/overview_in-service">In-Service Repair</Link>
-          <Link className="dropdown-item" to="/services/overview_newBuild-PaintSurvey">New-build Paint Survey</Link>
-        </div>
-      </li>
-            
-            <li className="nav-item ">
-              <Link to="/contact" className="nav-link">Contact</Link>
-            </li>
-            <li className="nav-item ">
-              <Link to="/report" className="nav-link">Report</Link>
-            </li>
-            <li className="nav-item "><Link to="/blog" className="nav-link">Blog</Link>
-            </li>
-          </ul>
-          <div className="d-none d-lg-flex align-items-baseline">
+          <NavbarBrand href="/"><img src={Logo} alt="company logo" width="40" height="35" />JMC-Limited</NavbarBrand>
+          <NavbarToggler onClick={this.toggle} />
+          <Collapse isOpen={this.state.isOpen} navbar>
+            <Nav className="mx-auto" navbar>
+              <NavItem>
+                <NavLink href="/">Home</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="/about_us">About</NavLink>
+              </NavItem>
+              <UncontrolledDropdown nav inNavbar>
+                <DropdownToggle nav caret>
+                Services
+                </DropdownToggle>
+                <DropdownMenu right>
+                  <DropdownItem>
+                  <Link to="/services" className="dropdown-item" >Go To Services</Link>
+                  </DropdownItem>
+                  <DropdownItem divider />
+                  <DropdownItem>
+                  <Link to="/services/overview_drydockings" className="dropdown-item" >Dry-Docking</Link>
+                  </DropdownItem>
+                  <DropdownItem>
+                  <Link className="dropdown-item" to="/services/overview_preSurveys">Pre-Docking Survey</Link>
+                  </DropdownItem>
+                  <DropdownItem>
+                  <Link className="dropdown-item" to="/services/overview_paintTechnology">Paint Technology</Link>
+                  </DropdownItem>
+                  <DropdownItem>
+                  <Link className="dropdown-item" to="/services/overview_tankSurveys">Tank Surveys</Link>
+                  </DropdownItem>
+                  <DropdownItem>
+                  <Link className="dropdown-item" to="/services/overview_newBuildings">New Buildings</Link>
+                  </DropdownItem>
+                  <DropdownItem>
+                  <Link className="dropdown-item" to="/services/overview_consulting">Consulting</Link>
+                  </DropdownItem>
+                  <DropdownItem>
+                  <Link className="dropdown-item" to="/services/overview_in-service">In-Service Repair</Link>
+                  </DropdownItem>
+                  <DropdownItem>
+                  <Link className="dropdown-item" to="/services/overview_newBuild-PaintSurvey">New-build Paint Survey</Link>
+                  </DropdownItem>
+                </DropdownMenu>
+              </UncontrolledDropdown>
+              <NavItem>
+                <NavLink href="/contact">Contact</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="/report">Report</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="/blog">Blog</NavLink>
+              </NavItem>
+              <NavItem className="d-none d-lg-flex align-items-baseline">
             <p className="text-white mx-4">
               <span className="mx-2 phone-icon">
                 <i className="fas fa fa-phone fa-fw"></i>
               </span>
               +45-2889-1525
             </p>
-            <Link to="/contact" className="btn btn-outline-warning btn-lg">Contact Us</Link> 
-          </div>
-        </div>
-      </nav>
-    )
+            <Link to="/contact" className="btn btn-outline-warning">Contact Us</Link> 
+              </NavItem>
+            </Nav>
+          </Collapse>
+        </Navbar>
+      </div>
+    );
   }
 }
 

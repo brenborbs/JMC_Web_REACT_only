@@ -18,17 +18,17 @@ const Services = () => {
             <h1>Drydockings</h1>
           </div>
           <div className="back-text">
-            <h1>DD Supervision</h1>
+            <h1>Supervision</h1>
             <p>Our representative will at all times be in the dry-dock to monitor the on-going works and attend all key steps.</p>
             <Link to="/services/overview_drydockings" className="button" >Read More</Link>
           </div>
         </article>
         <article className="service-item service-item-white">
           <div className="front-text"><i className="fa fa-pencil-square-o"></i>
-            <h1>Pre-Docking Surveys</h1>
+            <h1>Pre-Docking</h1>
           </div>
           <div className="back-text">
-            <h1>Ship Surveys</h1>
+            <h1>Surveys</h1>
             <p>We will make condition survey of all general areas such as main deck, mooring decks and superstructure with reporting and recommendation.</p>
             <Link to="/services/overview_preSurveys" className="button" >Read More</Link>
           </div>
@@ -48,7 +48,7 @@ const Services = () => {
             <h1>Paint Maintenance</h1>
           </div>
           <div className="back-text">
-            <h1>Paint Technology</h1>
+            <h1>Technology</h1>
             <p>As the leading corrosion experts in the industry, we will conduct a paint seminar for your crew during the course of the drydocking and provide you with concrete solutions.</p>
             <Link to="/services/overview_paintTechnology" className="button" >Read More</Link>
           </div>
