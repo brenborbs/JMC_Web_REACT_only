@@ -59,7 +59,7 @@ const initialState = [
     summary:
       "Even simple surface preparation techniques are needed to achieve a good and efficient treatment result. Teaching and providing the crew how to use proper surface preparation tools is very important as they sail into highly corrosive environments. The investment for shipping operators to purchase tools for treatment will always result in significant savings.",
     usage:
-      "As shown in the photo, having a set of pneumatic tools to remove is not enough. Some simple surface preparation techniques are needed to acheieved a good and efficient treatment result.",
+      "As shown in the photo, having a set of pneumatic tools to remove corrosion is not enough. Some simple surface preparation techniques are needed to achieve a good and efficient treatment result.",
     prep:
       "Good and bad surface preparations are shown clearly side by side. The result of the cup brush and chipper while both being able to remove rust, still leaves enough black scale on the insides and it could not create a feathered-edge on the sides. Feather-edging as a surface preparation technique is important because this can avoid overlapping of the primer and succeeding coats in the system.",
     application:
