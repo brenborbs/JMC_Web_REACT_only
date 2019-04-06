@@ -36,7 +36,7 @@ class Header extends Component {
         className="navbar fixed-top navbar-expand-lg navbar-dark px-5"
         // color="light" light expand="md"
         >
-          <NavbarBrand tag={Link} to="/"><img src={Logo} alt="company logo" width="40" height="35" />JMC-Limited</NavbarBrand>
+          <NavbarBrand tag={Link} to="/"><img src={Logo} alt="company logo" width="58" height="50"/><strong style={{ paddingLeft: '10px' }} >JMC Limited</strong></NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="mx-auto" navbar>

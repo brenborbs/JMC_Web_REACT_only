@@ -10,21 +10,21 @@ const HomeSlider = () => {
   const slides = [
     {
       img: HomeOne,
-      text: 'JMC-Limited',
+      text: 'JMC Limited',
       textUnderline: 'Corrosion Experts 24/7',
       linkTo: '/about_us',
       linkTitle: 'Explore'
     },
     {
       img: HomeTwo,
-      text: 'JMC-Limited',
+      text: 'JMC Limited',
       textUnderline: 'Corrosion Experts 24/7',
       linkTo: '/services',
       linkTitle: 'Our Services'
     },
     {
       img: HomeThree,
-      text: 'JMC-Limited',
+      text: 'JMC Limited',
       textUnderline: 'Corrosion Experts 24/7',
       linkTo: '/report',
       linkTitle: 'Sample Report'
