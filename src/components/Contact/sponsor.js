@@ -3,6 +3,7 @@ import Slider from 'react-slick';
 import Spon from '../../Resources/img/Soldalløberne.jpg';
 import SponTwo from '../../Resources/img/WhiteHawks_Top_990x500_2.jpg';
 import SponThree from '../../Resources/img/220px-Frederikshavn_White_Hawks_logo.png';
+import SponFour from '../../Resources/img/bronze.png';
 
 
 const Sponsor = (props) => {
@@ -23,6 +24,11 @@ const Sponsor = (props) => {
       descOne: 'We are proud to have sponsored the Frederikshavn White Hawks from Danish Championship Ice Hockey League.',
       descTwo: ' "JMC Limited is delighted to support Frederikshavn White Hawks, one of the top Danish ice-hockey teams, with a sponsorship for the season 2019-2020" '
     },
+    {
+      img: SponFour,
+      descOne: 'White Hawks won the bronze medal this season.',
+      descTwo: ' "JMC Limited is happy to sponsor the White Hawks in the coming season." '
+    }
   ]
 
   const settings = {
