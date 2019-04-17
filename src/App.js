@@ -20,6 +20,8 @@ import Page404 from './hoc/404';
 
 import Paint from './components/Paints';
 import PaintContent from './components/Content/paintContent';
+import FeatureContent from './components/Content/featuredContent';
+
 class App extends Component {
   render() {
     return (
@@ -32,6 +34,7 @@ class App extends Component {
         <Route path='/report' exact component={Sample} />
         <Route path='/blog' exact component={Paint} />
         <Route path='/blog/:id' exact component={PaintContent} />
+        <Route path='/blog/feature/:id' exact component={FeatureContent} />
         <Route path='/services/overview_drydockings' exact component={Overview_DD} />
       <Route path='/services/overview_preSurveys' exact component={Overview_PS} />
       <Route path='/services/overview_paintTechnology' exact component={Overview_PT} />

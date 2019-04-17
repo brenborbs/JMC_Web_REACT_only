@@ -1,4 +1,5 @@
 import { createReducer } from "../Common/utilReducer";
+import Staff from '../Resources/img/logo.jpg';
 import photo1 from "../Resources/img/Deck area T-1.....jpg";
 import photo2 from "../Resources/img/Main Deck after HPWJ (2).jpg";
 import photo3 from "../Resources/img/joint.jpg";
@@ -9,12 +10,14 @@ import photo6 from "../Resources/img/transCase.png";
 const initialState = [
   {
     id: "1",
+    staff: Staff,
+    author: 'JMC - Staff', 
     title: "Treatment By High Pressure Fresh Water versus Handtooling",
     category: "Surface Treatment",
     summary:
       "HPFW result is more efficient in removing corrosion on the upperdeck and it also removes grease and oil. The skill on the operator during HP washing is also very important. In the hands of a professional, the proper surface preparation quality will always be achieved.",
     usage:
-      "As clearly shown in the photo above, HPFW result is more efficient in removing corrosion on the upperdeck and it also removes grease and oil. It also exposes the bare metal and anchor profile on the surface, thus ensuring proper preparation prior applying the paint primer which is a crucial element within a coating system.",
+      "As clearly shown in the photo, HPFW result is more efficient in removing corrosion on the upperdeck and it also removes grease and oil. It also exposes the bare metal and anchor profile on the surface, thus ensuring proper preparation prior applying the paint primer which is a crucial element within a coating system.",
     prep:
       "Even with the disadvantages of HPFW such as condition of the Jet washing equipment and air pressure during washing or treatment, however in the hands of a professional, the surface preparation will automatically be elevated and leaves a much better result than manual hand tooling on the upperdeck.",
     application:
@@ -24,6 +27,8 @@ const initialState = [
   },
   {
     id: "2",
+    staff: Staff,
+    author: 'JMC - Staff', 
     title: "High Pressure Fresh Water Treatment on Deck pipes",
     category: "Surface Treatment",
     summary:
@@ -39,6 +44,8 @@ const initialState = [
   },
   {
     id: "3",
+    staff: Staff,
+    author: 'JMC - Staff', 
     title: "Secondary Surface Preparation For Erection Joints in New Buildings",
     category: "New Buildings",
     summary:
@@ -54,6 +61,8 @@ const initialState = [
   },
   {
     id: "4",
+    staff: Staff,
+    author: 'JMC - Staff', 
     title: "Good Practices for Removing Corrosion On-Board",
     category: "On-Board Maintenance",
     summary:
@@ -69,6 +78,8 @@ const initialState = [
   },
   {
     id: "5",
+    staff: Staff,
+    author: 'JMC - Staff', 
     title: "A Tank Sample Wherein Risk Level is Very High",
     category: "Tank Surveys",
     summary:
@@ -84,6 +95,8 @@ const initialState = [
   },
   {
     id: "6",
+    staff: Staff,
+    author: 'JMC - Staff', 
     title:
       "A Tank Sample where Corrosion is Between Transition from Fair to poor Condition",
     category: "Tank Surveys",

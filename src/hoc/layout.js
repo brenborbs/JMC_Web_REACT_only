@@ -6,13 +6,13 @@ import Footer from '../components/Header_footer/Footer';
  class Layout extends Component {
   render() {
     return (
-      <div>
+      <React.Fragment>
         <Header />
-        <div className="page_container" >
+        <div>
           {this.props.children}
         </div>
         <Footer />
-      </div>
+      </React.Fragment>
     )
   }
 }

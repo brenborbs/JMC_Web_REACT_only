@@ -20,15 +20,20 @@ const mapState = (state, ownProps) => {
 
  const PaintContent = ({ paint }) => {
    return (
-     <div 
-     className="container-blog" 
-     >
-      <div className="row">
-        <div className="col full" >
-          <PaintContentDetail 
-          paint={paint} />
-        </div>
+     <div className="entry-content" >
+      <div className="feature-image-content" 
+      style={{ 
+        // background: `url(${feature.img})`,
+        // minHeight: '50vh', 
+        marginTop: '8em',
+        marginBottom: '3em',
+      }}  
+      >
+       <h1 className="page-title">Case Studies: {paint.category}</h1>
       </div>
+      <PaintContentDetail 
+          paint={paint} />
+      
      </div>
    );
  };
