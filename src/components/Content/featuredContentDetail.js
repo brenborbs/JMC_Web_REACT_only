@@ -28,7 +28,7 @@ const FeaturedContentDetail = ({ feature }) => {
     <img 
       className="featurette-image img-fluid mx-auto" 
       src={`${feature.img}`} alt="feat" style={{ width: '100%' }} /> 
-    <p><em>{feature.parFour}</em></p>
+    <p style={{ marginTop: '18px' }} ><em>{feature.parFour}</em></p>
     <p>{feature.parFive}</p>
     <p>{feature.parSix}</p>
     <p>{feature.parSeven}</p>

@@ -113,8 +113,9 @@ body {
 .post-detail-content {
   margin: 0 auto;
   width: 70%;
-  margin-bottom: 10em;
+  margin-bottom: 120px;
 }
+
 .pic-info p {
   display: inline-block;
   padding-left: 15px;
