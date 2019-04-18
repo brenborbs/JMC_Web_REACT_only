@@ -40,14 +40,14 @@ class Header extends Component {
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="mx-auto" navbar>
-              <NavItem>
-                <NavLink tag={Link} to="/" style={{ paddingTop: '7.4px' }} >Home</NavLink>
+              <NavItem style={{ paddingTop: '7.4px' }}>
+                <NavLink tag={Link} to="/">Home</NavLink>
               </NavItem>
-              <NavItem>
-                <NavLink tag={Link} to="/about_us" style={{ paddingTop: '7.4px' }} >About</NavLink> 
+              <NavItem style={{ paddingTop: '7.4px' }}>
+                <NavLink tag={Link} to="/about_us">About</NavLink> 
               </NavItem>
-              <UncontrolledDropdown nav inNavbar>
-                <DropdownToggle nav caret style={{ paddingTop: '7.4px' }} >
+              <UncontrolledDropdown nav inNavbar style={{ paddingTop: '7.4px' }}>
+                <DropdownToggle nav caret  >
                 Services
                 </DropdownToggle>
                 <DropdownMenu right>
@@ -81,14 +81,14 @@ class Header extends Component {
                   </DropdownItem>
                 </DropdownMenu>
               </UncontrolledDropdown>
-              <NavItem>
-                <NavLink tag={Link} to="/contact" style={{ paddingTop: '7.4px' }}>Contact</NavLink>
+              <NavItem style={{ paddingTop: '7.4px' }}>
+                <NavLink tag={Link} to="/contact" >Contact</NavLink>
               </NavItem>
-              <NavItem>
-                <NavLink tag={Link} to="/report" style={{ paddingTop: '7.4px' }}>Report</NavLink>
+              <NavItem style={{ paddingTop: '7.4px' }}>
+                <NavLink tag={Link} to="/report" >Report</NavLink>
               </NavItem>
-              <NavItem>
-                <NavLink tag={Link} to="/blog" style={{ paddingTop: '7.4px' }}>Blog</NavLink>
+              <NavItem style={{ paddingTop: '7.4px' }}>
+                <NavLink tag={Link} to="/blog" >Blog</NavLink>
               </NavItem>
               <NavItem className="d-none d-lg-flex align-items-baseline">
             <p className="text-white mx-4">

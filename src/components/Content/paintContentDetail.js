@@ -19,7 +19,7 @@ const PaintContentDetails = ({paint}) => {
       src={`${paint.photo}`} alt="paint" style={{ width: '100%' }} />
       <p style={{ fontSize: '9px' }} >{paint.web}</p>
       <div className="summary">
-		  <p><strong><em>{paint.summary}</em></strong></p>
+		  <p>{paint.summary}</p>
 	    </div>
       <p> {paint.application}</p>
     </div>

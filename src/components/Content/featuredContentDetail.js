@@ -17,7 +17,7 @@ const FeaturedContentDetail = ({ feature }) => {
 	</div>
 
 	<div className="summary">
-		<p><strong>{feature.desc}</strong></p>
+		<p>{feature.desc}</p>
 	</div>
 	
 	<div className="post-content">
