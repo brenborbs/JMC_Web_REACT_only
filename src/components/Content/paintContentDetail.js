@@ -26,8 +26,8 @@ const PaintContentDetails = ({paint}) => {
     </div>
     <Facebook solidcircle big link={`https://jmc-limited.com/blog/${paint.id}`}/>
     <Twitter solid big message="Read our article" link={`https://jmc-limited.com/blog/${paint.id}`}/>
-    <Linkedin solidcircle big message="Read our article" link="https://jmc-limited.com/blog"/>
-    <Whatsapp solid big message="Share on Whatsapp" link="https://jmc-limited.com/blog"/>
+    <Linkedin solidcircle big message="Read our article" link={`https://jmc-limited.com/blog/${paint.id}`}/>
+    <Whatsapp solid big message="Share on Whatsapp" link={`https://jmc-limited.com/blog/${paint.id}`}/>
     </div>
   );
 };
