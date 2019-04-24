@@ -1,4 +1,5 @@
 import React from 'react';
+import { Facebook, Twitter, Linkedin, Whatsapp } from 'react-social-sharing';
 
 const FeaturedContentDetail = ({ feature }) => {
   return (
@@ -37,6 +38,10 @@ const FeaturedContentDetail = ({ feature }) => {
     <p>{feature.parTen}</p>
     <p>{feature.parEleven}</p>
 	</div>
+  <Facebook solidcircle big link={`https://jmc-limited.com/blog/feature/${feature.id}`}/>
+  <Twitter solid big message="Read our article" link={`https://jmc-limited.com/blog/feature/${feature.id}`}/>
+  <Linkedin solidcircle big message="Read our article" link={`https://jmc-limited.com/blog/feature/${feature.id}`}/>
+  <Whatsapp solid big message="Share on Whatsapp" link={`https://jmc-limited.com/blog/feature/${feature.id}`}/>
   </div>
   </React.Fragment>
   );

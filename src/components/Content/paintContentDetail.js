@@ -1,4 +1,5 @@
 import React from 'react';
+import { Facebook, Twitter, Linkedin, Whatsapp } from 'react-social-sharing';
 
 const PaintContentDetails = ({paint}) => {
   return (
@@ -23,6 +24,10 @@ const PaintContentDetails = ({paint}) => {
 	    </div>
       <p> {paint.application}</p>
     </div>
+    <Facebook solidcircle big link={`https://jmc-limited.com/blog/${paint.id}`}/>
+    <Twitter solid big message="Read our article" link={`https://jmc-limited.com/blog/${paint.id}`}/>
+    <Linkedin solidcircle big message="Read our article" link="https://jmc-limited.com/blog"/>
+    <Whatsapp solid big message="Share on Whatsapp" link="https://jmc-limited.com/blog"/>
     </div>
   );
 };
