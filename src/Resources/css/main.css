@@ -134,8 +134,11 @@ body {
   height: 50px;
   border-radius: 50%;
 }
-.intro, .byline {
+.intro {
   margin-bottom: 20px;
+}
+.sm-social-share-wrapper {
+  margin: 10px;
 }
 /* // Styles for fun
 // ------------------------------------------------- */

@@ -10,6 +10,15 @@ const PaintContentDetails = ({paint}) => {
 		<h1 className="post-title">{paint.title}</h1>
 	  </div>
 
+    <div className="sm-social-share-wrapper" style={{ textAlign: 'center' }} >
+    <div className="small-soc-buttons">
+    <Facebook solidcircle small link={`https://jmc-limited.com/blog/${paint.id}`}/>
+    <Twitter solidcircle small message="Share this article" link={`https://jmc-limited.com/blog/${paint.id}`}/>
+    <Linkedin solidcircle small message="Share this article" link={`https://jmc-limited.com/blog/${paint.id}`}/>
+    <Whatsapp solidcircle small message="Share on Whatsapp" link={`https://jmc-limited.com/blog/${paint.id}`}/>
+    </div>
+  </div>
+
     <div className="post-content">
 
       <p> {paint.usage}</p>

@@ -17,6 +17,15 @@ const FeaturedContentDetail = ({ feature }) => {
     </div>
 	</div>
 
+  <div className="sm-social-share-wrapper">
+    <div className="small-soc-buttons">
+    <Facebook solidcircle small link={`https://jmc-limited.com/blog/feature/${feature.id}`}/>
+    <Twitter solidcircle small message="Share this article" link={`https://jmc-limited.com/blog/feature/${feature.id}`}/>
+    <Linkedin solidcircle small message="Share this article" link={`https://jmc-limited.com/blog/feature/${feature.id}`}/>
+    <Whatsapp solidcircle small message="Share on Whatsapp" link={`https://jmc-limited.com/blog/feature/${feature.id}`}/>
+    </div>
+  </div>
+
 	<div className="summary">
 		<p>{feature.desc}</p>
 	</div>
@@ -41,8 +50,8 @@ const FeaturedContentDetail = ({ feature }) => {
       <div className="story-container" >
           <h4>Share this story</h4>
       <Facebook solidcircle big link={`https://jmc-limited.com/blog/feature/${feature.id}`}/>
-      <Twitter solid big message="Read our article" link={`https://jmc-limited.com/blog/feature/${feature.id}`}/>
-      <Linkedin solidcircle big message="Read our article" link={`https://jmc-limited.com/blog/feature/${feature.id}`}/>
+      <Twitter solid big message="Share this article" link={`https://jmc-limited.com/blog/feature/${feature.id}`}/>
+      <Linkedin solidcircle big message="Share this article" link={`https://jmc-limited.com/blog/feature/${feature.id}`}/>
       <Whatsapp solid big message="Share on Whatsapp" link={`https://jmc-limited.com/blog/feature/${feature.id}`}/>
       </div>
   </div>
