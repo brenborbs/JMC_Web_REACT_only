@@ -18,7 +18,7 @@ const PaintContentDetails = ({paint}) => {
     <Whatsapp solidcircle small message="Share on Whatsapp" link={`https://jmc-limited.com/blog/${paint.id}`}/>
     </div>
   </div>
-
+ 
     <div className="post-content">
 
       <p> {paint.usage}</p>

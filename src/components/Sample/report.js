@@ -77,10 +77,12 @@ const Report = () => {
   )
 
   return (
-    <div className="projects" style={{ backgroundColor: '#b5c2b7' }} >
+    <div className="projects" style={{ backgroundColor: 'lightgray' }} >
     <div className="title">
         <div className="title-text">
-          <h1 style={{ paddingTop: '2em' }} >JMC Sample Report</h1>
+          <h1 
+          // style={{ paddingTop: '2em' }} 
+          >JMC Sample Report</h1>
         </div>
         <div className="title-underline"></div>
         <p style={{ textAlign:'center' , paddingTop: '1.5em' }}><strong>JMC Limited</strong> report that will serve as the guideline during initial owner/yard scope of work discussions.</p><p style={{ textAlign:'center'}}>Our clients will receive similar report scope during the project.</p>

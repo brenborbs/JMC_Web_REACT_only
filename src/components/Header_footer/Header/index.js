@@ -85,17 +85,20 @@ class Header extends Component {
                 <NavLink tag={Link} to="/contact" >Contact</NavLink>
               </NavItem>
               <NavItem style={{ paddingTop: '7.4px' }}>
-                <NavLink tag={Link} to="/report" >Report</NavLink>
+                <NavLink tag={Link} to="/news" >News</NavLink>
               </NavItem>
+              {/* <NavItem style={{ paddingTop: '7.4px' }}>
+                <NavLink tag={Link} to="/report" >Report</NavLink>
+              </NavItem> */}
               <NavItem style={{ paddingTop: '7.4px' }}>
                 <NavLink tag={Link} to="/blog" >Blog</NavLink>
               </NavItem>
               <NavItem className="d-none d-lg-flex align-items-baseline">
-            <p className="text-white mx-4">
-              <span className="mx-2 phone-icon">
+            <p className="text-white mx-2">
+              {/* <span className="mx-4 phone-icon"> */}
                 <i className="fas fa fa-phone fa-fw"></i>
-              </span>
-              +45-2889-1525
+              {/* </span> */}
+              +45-28891525
             </p>
             <Link to="/contact" className="btn btn-outline-warning">Contact Us</Link> 
               </NavItem>

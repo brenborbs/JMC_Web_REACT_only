@@ -7,7 +7,8 @@ import Home from './components/Home';
 import About from './components/About';
 import Services from './components/Services';
 import Contact from './components/Contact';
-import Sample from './components/Sample';
+// import Sample from './components/Sample';
+import News from './components/News';
 import Overview_DD from './components/OverviewDD';
 import Overview_PS from './components/OverviewPS';
 import Overview_PT from './components/OverviewPT';
@@ -21,6 +22,7 @@ import Page404 from './hoc/404';
 import Paint from './components/Paints';
 import PaintContent from './components/Content/paintContent';
 import FeatureContent from './components/Content/featuredContent';
+import NewsFeature from './components/News/featuredNewsContent';
 
 class App extends Component {
   render() {
@@ -31,7 +33,9 @@ class App extends Component {
         <Route path='/about_us' exact component={About} />
         <Route path='/services' exact component={Services} />
         <Route path='/contact' exact component={Contact} />
-        <Route path='/report' exact component={Sample} />
+        <Route path='/news' exact component={News} />
+        <Route path='/news/feature/:id' exact component={NewsFeature} />
+        {/* <Route path='/report' exact component={Sample} /> */}
         <Route path='/blog' exact component={Paint} />
         <Route path='/blog/:id' exact component={PaintContent} />
         <Route path='/blog/feature/:id' exact component={FeatureContent} />
