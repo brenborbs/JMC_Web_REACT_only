@@ -19,7 +19,9 @@ const Newfooter = () => {
                   <br/> 
                   mje@jmc-limited.com
                   <br/>
-                  Give us a call +45-2889-1525
+                  Give us a call 
+                  <br/>
+                  +45-2889-1525
                 </p>
               </div>
               <div className="footer-copy">
