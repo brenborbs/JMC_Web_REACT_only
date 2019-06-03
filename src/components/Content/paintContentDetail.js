@@ -1,9 +1,21 @@
 import React from 'react';
+import Helmet from 'react-helmet';
 import { Facebook, Twitter, Linkedin, Whatsapp } from 'react-social-sharing';
 
 const PaintContentDetails = ({paint}) => {
   return (
     <React.Fragment>
+      <Helmet>
+        <title>JMC Limited/blog/{paint.title}</title>
+        <meta 
+        name={paint.usage} 
+        content={paint.prep} />
+      <meta
+        name={paint.summary}
+        content={paint.application}
+      />
+      </Helmet>
+      
     <div className="post-detail-content" >
     
     <div className="intro">
@@ -34,7 +46,8 @@ const PaintContentDetails = ({paint}) => {
     </div>
         <div className="story-container">
         <h4>Share this story</h4>
-            <Facebook solidcircle big link={`https://jmc-limited.com/blog/${paint.id}`}/>
+            <Facebook solidcircle big link={`https://jmc-limited.com/blog/${paint.id}`} 
+            />
             <Twitter solid big message="Read our article" link={`https://jmc-limited.com/blog/${paint.id}`}/>
             <Linkedin solidcircle big message="Read our article" link={`https://jmc-limited.com/blog/${paint.id}`}/>
             <Whatsapp solid big message="Share on Whatsapp" link={`https://jmc-limited.com/blog/${paint.id}`}/>

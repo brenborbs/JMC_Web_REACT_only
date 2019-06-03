@@ -1,11 +1,26 @@
 import { createReducer } from "../Common/utilReducer";
 import Guy from '../Resources/img/newsPhoto1.png';
 import HNature from '../Resources/img/hnature.jpg';
+import Scut from '../Resources/img/sc1.jpg';
+ 
 
 
 const initialState = [
   {
     id: '0',
+    img: Scut,
+    title: 'Steel cutting for DFDS newbuilding Stena Ropax at AVIC Weihai Shipyard Co.,Ltd. China ',
+    author: 'JMC Limited staff',
+    date: 'June 3, 2019',
+    bodyOne: 'The steel cutting for newbuilding DFDS Stena Ropax has been done and now the project has officially started.',
+    bodyTwo: 'The event has been attended by our Anders Bouet Thomsen which is engaged as a consultant and Senior Charterer’s Representative in the shipyard.',
+    bodyThree: '',
+    bodyFour: '',
+    bodyFive: '',
+    link: ''
+  },
+  {
+    id: '1',
     img: Guy,
     title: 'New Consultant to oversee construction of the newbuilding intended for the channel.',
     author: 'Article from dfds-news.com/dfds-newbuildings',
@@ -18,7 +33,7 @@ const initialState = [
     link: 'https://www.dfds-news.com/ships/new-consultant-to-oversee-construction-of-the-newbuilding-intended-for-the-channel/'
   },
   {
-    id: '1',
+    id: '2',
     img: HNature,
     title: 'Hanseatic Nature passes her sea trial',
     author: 'Updates from hl-cruises.com/ships/hanseatic-nature',

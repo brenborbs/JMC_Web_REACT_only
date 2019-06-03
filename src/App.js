@@ -7,7 +7,7 @@ import Home from './components/Home';
 import About from './components/About';
 import Services from './components/Services';
 import Contact from './components/Contact';
-// import Sample from './components/Sample';
+
 import News from './components/News';
 import Overview_DD from './components/OverviewDD';
 import Overview_PS from './components/OverviewPS';
@@ -24,6 +24,7 @@ import PaintContent from './components/Content/paintContent';
 import FeatureContent from './components/Content/featuredContent';
 import NewsFeature from './components/News/featuredNewsContent';
 
+
 class App extends Component {
   render() {
     return (
@@ -35,7 +36,7 @@ class App extends Component {
         <Route path='/contact' exact component={Contact} />
         <Route path='/news' exact component={News} />
         <Route path='/news/feature/:id' exact component={NewsFeature} />
-        {/* <Route path='/report' exact component={Sample} /> */}
+        
         <Route path='/blog' exact component={Paint} />
         <Route path='/blog/:id' exact component={PaintContent} />
         <Route path='/blog/feature/:id' exact component={FeatureContent} />

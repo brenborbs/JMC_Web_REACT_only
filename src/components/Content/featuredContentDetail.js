@@ -1,9 +1,37 @@
 import React from 'react';
+import Helmet from 'react-helmet';
 import { Facebook, Twitter, Linkedin, Whatsapp } from 'react-social-sharing';
 
 const FeaturedContentDetail = ({ feature }) => {
   return (
     <React.Fragment> 
+      <Helmet>
+        <title>JMC Limited/blog/feature{feature.title}</title>
+        <meta 
+        name={feature.desc} 
+        content={feature.parOne} />
+      <meta
+        name={feature.parTwo}
+        content={feature.parThree}
+      />
+      <meta
+        name={feature.parFour}
+        content={feature.parFive}
+      />
+      <meta
+        name={feature.parSix}
+        content={feature.parSeven}
+      />
+      <meta
+        name={feature.parEight}
+        content={feature.parNine}
+      />
+      <meta
+        name={feature.parTen}
+        content={feature.parEleven}
+      />
+      </Helmet> 
+
     <div className="post-detail-content"> 
 
   <div className="intro">
@@ -19,7 +47,9 @@ const FeaturedContentDetail = ({ feature }) => {
 
   <div className="sm-social-share-wrapper">
     <div className="small-soc-buttons">
-    <Facebook solidcircle small link={`https://jmc-limited.com/blog/feature/${feature.id}`}/>
+    <Facebook solidcircle small link={`https://jmc-limited.com/blog/feature/${feature.id}`} 
+    
+    />
     <Twitter solidcircle small message="Share this article" link={`https://jmc-limited.com/blog/feature/${feature.id}`}/>
     <Linkedin solidcircle small message="Share this article" link={`https://jmc-limited.com/blog/feature/${feature.id}`}/>
     <Whatsapp solidcircle small message="Share on Whatsapp" link={`https://jmc-limited.com/blog/feature/${feature.id}`}/>
