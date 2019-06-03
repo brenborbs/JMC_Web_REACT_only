@@ -6,7 +6,7 @@ const FeaturedContentDetail = ({ feature }) => {
   return (
     <React.Fragment> 
       <Helmet>
-        <title>JMC Limited/blog/feature{feature.title}</title>
+        <title>JMC Limited/blog/feature/{feature.title}</title>
         <meta 
         name={feature.desc} 
         content={feature.parOne} />

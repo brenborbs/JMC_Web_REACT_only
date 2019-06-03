@@ -5,8 +5,8 @@ import Helmet from 'react-helmet';
 const featuredDetail = ( {feature} ) => {
   return (
     <React.Fragment>
-      <Helmet>
-        <title>JMC-Limited/Blog</title>
+      <Helmet> 
+        <title>JMC Limited/Blog</title>
         <meta 
         name={feature.title} 
         content={feature.desc} />

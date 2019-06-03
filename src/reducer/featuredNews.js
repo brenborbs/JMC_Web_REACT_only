@@ -12,11 +12,11 @@ const initialState = [
     title: 'Steel cutting for DFDS newbuilding Stena Ropax at AVIC Weihai Shipyard Co.,Ltd. China ',
     author: 'JMC Limited staff',
     date: 'June 3, 2019',
-    bodyOne: 'The steel cutting for newbuilding DFDS Stena Ropax has been done and now the project has officially started.',
+    bodyOne: 'The steel cutting for Hull No.W0268 Stena Ropax has been done last May 30th 2019 at AVIC Weihai Shipyard Co.,Ltd. China. Hence, the project has officially started.',
     bodyTwo: 'The event has been attended by our Anders Bouet Thomsen which is engaged as a consultant and Senior Charterer’s Representative in the shipyard.',
-    bodyThree: '',
-    bodyFour: '',
-    bodyFive: '',
+    bodyThree: 'The Ropax vessel at Avic Weihai is one of three new building vessels ordered by Stena that will be built in not less than 3 shipyard locations in China.',
+    bodyFour: ' "We will however follow the construction of the vessel by a small site team with observer status" as stated by Jesper Aagesen, Director of Newbuilding & Major Conversions at DFDS.',
+    bodyFive: 'One of these vessels will be taken on a bareboat charter by DFDS when it is completed in 2021.',
     link: ''
   },
   {

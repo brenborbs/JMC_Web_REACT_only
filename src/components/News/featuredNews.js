@@ -6,7 +6,7 @@ const FeaturedNews = ({ newInfo }) => {
   return (
       <article className="news-feature-item" >
       <Helmet>
-        <title>JMC-Limited/News</title>
+        <title>JMC Limited/News</title>
         <meta name={newInfo.title} content={newInfo.bodyOne} />
       
       </Helmet> 

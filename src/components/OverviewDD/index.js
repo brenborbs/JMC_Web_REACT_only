@@ -8,7 +8,7 @@ import Helmet from 'react-helmet';
     return (
       <>
         <Helmet>
-        <title>JMC Limited - Services/Drydockings</title>
+        <title>JMC Limited/Services/Drydockings</title>
         <meta 
         name="Dry-Docking" 
         content="By constant care and foresight supervision, we can help you get potential paint and material savings during dry docking of your vessel." />

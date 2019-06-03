@@ -8,7 +8,7 @@ import Helmet from 'react-helmet';
     return (
       <>
         <Helmet>
-        <title>JMC Limited - Services/Pre-docking Surveys</title>
+        <title>JMC Limited/Services/Pre-docking Surveys</title>
         <meta 
         name="Pre-docking survey" 
         content="The extent of the corrosion may be unknown but with our expertise, we can do the survey for you." />

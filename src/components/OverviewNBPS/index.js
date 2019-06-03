@@ -7,7 +7,7 @@ const NBSurvey = () => {
   return (
     <>
       <Helmet>
-        <title>JMC Limited - Services/New-Building Guarantee Paint Survey</title>
+        <title>JMC Limited/Services/New-Building Guarantee Paint Survey</title>
         <meta 
         name="New-Building Guarantee Paint Survey" 
         content="Guiding you in getting paint guarantee claims towards the new-building shipyard." />

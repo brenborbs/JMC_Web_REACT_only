@@ -1,11 +1,17 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import Helmet from 'react-helmet';
 
  class PaintList extends Component {
   render() {
     const {paint} = this.props;
     return (     
       <article className="paint-project-item" >
+        <Helmet> 
+        <meta 
+        name={paint.title} 
+        content={paint.summary} />
+      </Helmet> 
               <div className="paint-img-container" >
                   <img  
                   style={{width: '100%'}}

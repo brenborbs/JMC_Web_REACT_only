@@ -8,7 +8,7 @@ const OverviewTS = () => {
   return (
     <>
       <Helmet>
-        <title>JMC Limited - Services/Tank Surveys</title>
+        <title>JMC Limited/Services/Tank Surveys</title>
         <meta 
         name="Tank surveys" 
         content="We will perform the tank survey prior any class surveys and provide you with an extensive report" />
