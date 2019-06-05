@@ -1174,7 +1174,7 @@ footer {
     margin: 40px 40px 0px 60px;
     line-height: 2.0;
   }
-}
+} 
 .paint-project-container {
   max-width: 90vw;
   margin: 0 auto;
@@ -1186,6 +1186,10 @@ footer {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 /* news feature */
+.update_news_wrapper {
+  margin: 20px;
+}
+
 .news-link {
   color: darkblue;
   font-size: 20px;
@@ -1199,7 +1203,7 @@ footer {
 .news-feature-item {
   background-color: white ;
   color: #191716;
-  margin: 5px 20px 10px 30px;
+   margin: 10px;
   /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
 }
 .news-img-container {

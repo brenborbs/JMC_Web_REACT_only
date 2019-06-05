@@ -19,7 +19,7 @@ const FeaturedNews = ({ newInfo }) => {
                 <h4>{newInfo.title}</h4>
                 <p><em>{newInfo.date}</em></p>
                 <Link 
-              className="news-link"
+              className="news-link font-weight-bold"
               to={`/news/feature/${newInfo.id}`} >Read More >
               </Link>
               </div>

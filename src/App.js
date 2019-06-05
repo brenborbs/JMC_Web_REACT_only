@@ -23,7 +23,7 @@ import Paint from './components/Paints';
 import PaintContent from './components/Content/paintContent';
 import FeatureContent from './components/Content/featuredContent';
 import NewsFeature from './components/News/featuredNewsContent';
-
+import NewsUpdate from './components/News/updateNewsContent';
 
 class App extends Component {
   render() {
@@ -36,6 +36,7 @@ class App extends Component {
         <Route path='/contact' exact component={Contact} />
         <Route path='/news' exact component={News} />
         <Route path='/news/feature/:id' exact component={NewsFeature} />
+        <Route path='/news/update/:id' exact component={NewsUpdate} />
         
         <Route path='/blog' exact component={Paint} />
         <Route path='/blog/:id' exact component={PaintContent} />

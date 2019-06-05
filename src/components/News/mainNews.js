@@ -1,4 +1,5 @@
 import React from 'react';
+import Update from './mainUpdate';
 import News from './entryNews';
 
 const MainNews = () => {
@@ -11,7 +12,12 @@ const MainNews = () => {
     >
 		      <h1 className="page-title">News</h1>
       </div>
-      <News />
+      
+      <div className="update_news_wrapper">
+          <Update/>
+          <News />
+      </div>
+      
     </div>
   );
 };

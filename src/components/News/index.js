@@ -3,9 +3,9 @@ import Main from './mainNews';
 
 const News = () => {
   return (
-    <div>
+    <React.Fragment>
       <Main />
-    </div>
+    </React.Fragment>
   );
 };
 
