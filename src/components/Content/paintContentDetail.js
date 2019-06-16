@@ -1,6 +1,19 @@
 import React from 'react';
 import Helmet from 'react-helmet';
-import { Facebook, Twitter, Linkedin, Whatsapp } from 'react-social-sharing';
+import { 
+  FacebookShareButton, 
+  FacebookIcon, 
+  FacebookShareCount,
+  TwitterShareButton,
+  TwitterIcon,
+  LinkedinShareButton,
+  LinkedinIcon,
+  EmailShareButton,
+  EmailIcon,
+  WhatsappShareButton,
+  WhatsappIcon
+   
+} from 'react-share';
 
 const PaintContentDetails = ({paint}) => {
   return (
@@ -22,15 +35,6 @@ const PaintContentDetails = ({paint}) => {
 		<h1 className="post-title">{paint.title}</h1>
 	  </div>
 
-    <div className="sm-social-share-wrapper">
-    <div className="small-soc-buttons">
-    <Facebook solidcircle small link={`https://jmc-limited.com/blog/${paint.id}`}/>
-    <Twitter solidcircle small message="Share this article" link={`https://jmc-limited.com/blog/${paint.id}`}/>
-    <Linkedin solidcircle small message="Share this article" link={`https://jmc-limited.com/blog/${paint.id}`}/>
-    <Whatsapp solidcircle small message="Share on Whatsapp" link={`https://jmc-limited.com/blog/${paint.id}`}/>
-    </div>
-  </div>
- 
     <div className="post-content">
 
       <p> {paint.usage}</p>
@@ -46,11 +50,75 @@ const PaintContentDetails = ({paint}) => {
     </div>
         <div className="story-container">
         <h4>Share this story</h4>
-            <Facebook solidcircle big link={`https://jmc-limited.com/blog/${paint.id}`} 
-            />
-            <Twitter solid big message="Read our article" link={`https://jmc-limited.com/blog/${paint.id}`}/>
-            <Linkedin solidcircle big message="Read our article" link={`https://jmc-limited.com/blog/${paint.id}`}/>
-            <Whatsapp solid big message="Share on Whatsapp" link={`https://jmc-limited.com/blog/${paint.id}`}/>
+
+        <div className="Demo__container" >
+              <div className="Demo__some-network">
+                  <FacebookShareButton
+                    url={`https://jmc-limited.com/blog/${paint.id}`}
+                    quote={paint.title}
+                    className="Demo__some-network__share-button">
+                    <FacebookIcon
+                      size={32}
+                      round={false}
+                      />
+                  </FacebookShareButton>
+                  <FacebookShareCount
+                    url={`https://jmc-limited.com/blog/${paint.id}`}
+                    className="Demo__some-network__share-count">
+                    {count => count}
+                  </FacebookShareCount>
+              </div>
+              <div className="Demo__some-network">
+                  <TwitterShareButton
+                    url={`https://jmc-limited.com/blog/${paint.id}`}
+                    quote={paint.title}
+                    className="Demo__some-network__share-button">
+                    <TwitterIcon
+                      size={32}
+                      round={false}
+                      />
+                  </TwitterShareButton>
+              </div>
+              <div className="Demo__some-network">
+                <LinkedinShareButton
+                  url={`https://jmc-limited.com/blog/${paint.id}`}
+                  windowWidth={750}
+                  windowHeight={600}
+                  className="Demo__some-network__share-button">
+                  <LinkedinIcon
+                    size={32}
+                    round={false} />
+                </LinkedinShareButton>
+              </div>
+              <div className="Demo__some-network">
+                <EmailShareButton
+                  url={`https://jmc-limited.com/blog/${paint.id}`}
+                  subject={paint.title}
+                  body="body"
+                  className="Demo__some-network__share-button">
+                  <EmailIcon
+                    size={32}
+                    round={false} />
+                </EmailShareButton>
+                </div>
+                <div className="Demo__some-network">
+                <WhatsappShareButton
+                  url={`https://jmc-limited.com/blog/${paint.id}`}
+                  title={paint.title}
+                  separator=":: "
+                  className="Demo__some-network__share-button">
+                  <WhatsappIcon size={32} round={false} />
+                </WhatsappShareButton>
+
+                <div className="Demo__some-network__share-count">
+                  &nbsp;
+                </div>
+              </div>
+
+
+
+            </div>
+
         </div>
     </div>
     </React.Fragment>
