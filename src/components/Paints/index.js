@@ -1,18 +1,18 @@
-import React  from 'react';
-import PaintMain from './paintMain';
-import Banner from './banner';
-import Featured from './featured';
+import React from "react";
+import PaintMain from "./paintMain";
+import Banner from "./banner";
+import Featured from "./featured";
+import NewsBar from "../../Common/newsBar";
 
- const Paint =() => {
+const Paint = () => {
+  return (
+    <div>
+      <Banner />
+      <NewsBar />
+      <Featured />
+      <PaintMain />
+    </div>
+  );
+};
 
-    return (
-      <div>
-        <Banner />
-        <Featured />
-        <PaintMain />
-      </div>
-    )
-  }
-
- 
 export default Paint;

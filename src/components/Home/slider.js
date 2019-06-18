@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 import Slider from 'react-slick';
 
 const HomeSlider = () => {
-
+ 
   const slides = [
     {
       img: HomeOne,

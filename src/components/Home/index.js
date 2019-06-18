@@ -1,21 +1,20 @@
-import React  from 'react';
-import Skills from './skills';
-import Services from './services';
-import Projects from './projects';
-import Slider from './slider';
-import Helmet from 'react-helmet';
+import React from "react";
+import Skills from "./skills";
+import Services from "./services";
+import Projects from "./projects";
+import Slider from "./slider";
+import NewsBar from "../../Common/newsBar";
+import Helmet from "react-helmet";
 
-
- const Home = () => {
-  
-    return (
-      
-        <React.Fragment>
+const Home = () => {
+  return (
+    <React.Fragment>
       <Helmet>
         <title>JMC Limited/Marine Corrosion Experts</title>
-        <meta 
-        name="Drydockings" 
-        content="We will always do our utmost to ensure the protection of your assets in the most suitable way, by continous foresight." />
+        <meta
+          name="Drydockings"
+          content="We will always do our utmost to ensure the protection of your assets in the most suitable way, by continous foresight."
+        />
         <meta
           name="Reporting"
           content="As marine corrosion experts, we will give you a clear and precise report regarding the condition of your assets including proper advice and guidance for your crew."
@@ -44,14 +43,14 @@ import Helmet from 'react-helmet';
           name="tank surveys inside tanks"
           content="JMC upon accepting tank surveys will go ahead as per planned and take the neccessary requirements and conduct the survey."
         />
-      </Helmet> 
-        <Slider/>
-        <Skills />
-        <Services />
-        <Projects />
-      </React.Fragment>
-    )
-  }
-
+      </Helmet>
+      <Slider />
+      <NewsBar />
+      <Skills />
+      <Services />
+      <Projects />
+    </React.Fragment>
+  );
+};
 
 export default Home;

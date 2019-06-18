@@ -4,7 +4,7 @@ import Chart from '../../Resources/img/chart.png';
 
 const Pie = () => {
   return (
-    <div className="exp-section_style" >
+    <div className="exp-section_services" >
   
   <div className="title">
       <div className="title-text">

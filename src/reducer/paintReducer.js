@@ -1,5 +1,5 @@
 import { createReducer } from "../Common/utilReducer";
-import Staff from '../Resources/img/logo.jpg';
+import Staff from "../Resources/img/logo.jpg";
 import photo1 from "../Resources/img/Deck area T-1.....jpg";
 import photo2 from "../Resources/img/Main Deck after HPWJ (2).jpg";
 import photo3 from "../Resources/img/joint.jpg";
@@ -11,7 +11,7 @@ const initialState = [
   {
     id: "1",
     staff: Staff,
-    author: 'JMC - Staff', 
+    author: "JMC - Staff",
     title: "Treatment By High Pressure Fresh Water versus Handtooling",
     category: "Surface Treatment",
     summary:
@@ -28,7 +28,7 @@ const initialState = [
   {
     id: "2",
     staff: Staff,
-    author: 'JMC - Staff', 
+    author: "JMC - Staff",
     title: "High Pressure Fresh Water Treatment on Deck pipes",
     category: "Surface Treatment",
     summary:
@@ -45,7 +45,7 @@ const initialState = [
   {
     id: "3",
     staff: Staff,
-    author: 'JMC - Staff', 
+    author: "JMC - Staff",
     title: "Secondary Surface Preparation For Erection Joints in New Buildings",
     category: "New Buildings",
     summary:
@@ -62,7 +62,7 @@ const initialState = [
   {
     id: "4",
     staff: Staff,
-    author: 'JMC - Staff', 
+    author: "JMC - Staff",
     title: "Good Practices for Removing Corrosion On-Board",
     category: "On-Board Maintenance",
     summary:
@@ -79,7 +79,7 @@ const initialState = [
   {
     id: "5",
     staff: Staff,
-    author: 'JMC - Staff', 
+    author: "JMC - Staff",
     title: "A Tank Sample Wherein Risk Level is Very High",
     category: "Tank Surveys",
     summary:
@@ -96,7 +96,7 @@ const initialState = [
   {
     id: "6",
     staff: Staff,
-    author: 'JMC - Staff', 
+    author: "JMC - Staff",
     title:
       "A Tank Sample where Corrosion is Between Transition from Fair to poor Condition",
     category: "Tank Surveys",
