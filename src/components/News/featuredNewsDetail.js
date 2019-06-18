@@ -1,5 +1,8 @@
 import React from "react";
 import Helmet from "react-helmet";
+import UpdateCards from "../../UpdateCard/EntryUpdateNews";
+import CasesCard from "../../CasesCard/CasesEntry";
+import BlogCard from "../../BlogCard/BlogEntry";
 // import { Link } from 'react-router-dom';
 
 import { Facebook, Twitter, Linkedin, Whatsapp } from "react-social-sharing";
@@ -69,6 +72,12 @@ const FeaturedNewsDetail = ({ newsInfo }) => {
             link={`https://jmc-limited.com/news/feature/${newsInfo.id}`}
           />
         </div>
+        <h6>News Updates from JMC Limited</h6>
+        <UpdateCards />
+        <h6 style={{ marginTop: "20px" }}>Read our case studies</h6>
+        <CasesCard />
+        <h6 style={{ marginTop: "20px" }}>Featured Blog</h6>
+        <BlogCard />
       </div>
     </React.Fragment>
   );

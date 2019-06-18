@@ -1,28 +1,28 @@
-import React, { Component } from 'react';
-import { connect } from 'react-redux';
-import FeaturedList from './featuredList';
+import React, { Component } from "react";
+import { connect } from "react-redux";
+import FeaturedList from "./featuredList";
 
-const mapState = (state) => ({
+const mapState = state => ({
   features: state.features
-})
- 
- class Featured extends Component {
-  render() {
+});
 
-    const {features} = this.props;
+class Featured extends Component {
+  render() {
+    const { features } = this.props;
 
     return (
       <React.Fragment>
-    <div className="exp-section_style-feature">
-
-    <div className="title-case-feature" >
-        <h1>Featured</h1>
+        <div className="exp-section_style-feature">
+          <div className="title-case-feature">
+            <h1>
+              <i className="fa fa-book" aria-hidden="true" /> Featured
+            </h1>
+          </div>
+          <FeaturedList features={features} />
         </div>
-        <FeaturedList features={features} />
-    </div>
-    </React.Fragment>
-    )
+      </React.Fragment>
+    );
   }
 }
 
-export default connect(mapState) (Featured) ;
+export default connect(mapState)(Featured);

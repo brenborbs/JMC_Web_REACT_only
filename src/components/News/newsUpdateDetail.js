@@ -14,7 +14,8 @@ import {
   WhatsappIcon
 } from "react-share";
 import CardNews from "../../NewsCard/EntryNewsCard";
-import CasesCard from "../../CasesCard/CasesEntry" ;
+import CasesCard from "../../CasesCard/CasesEntry";
+import BlogCard from "../../BlogCard/BlogEntry";
 
 const NewsUpdateDetail = ({ newsUpdate }) => {
   return (
@@ -146,10 +147,12 @@ const NewsUpdateDetail = ({ newsUpdate }) => {
             </div>
           </div>
         </div>
-        <h5>More Featured News from JMC Limited</h5>
+        <h6>More Featured News from JMC Limited</h6>
         <CardNews />
-        <h5 style={{ marginTop: '20px' }} >Read our case studies</h5>
+        <h6 style={{ marginTop: "20px" }}>Read our case studies</h6>
         <CasesCard />
+        <h6 style={{ marginTop: "20px" }}>Featured Blog</h6>
+        <BlogCard />
       </div>
     </React.Fragment>
   );

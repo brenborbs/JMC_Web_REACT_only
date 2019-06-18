@@ -156,9 +156,9 @@ const FeaturedContentDetail = ({ feature }) => {
             </div>
           </div>
         </div>
-        <h4>Read our case studies</h4>
+        <h6>Read our case studies</h6>
         <CasesCard />
-        <h4 style={{ marginTop: '20px' }} >Featured News at JMC Limited</h4>
+        <h6 style={{ marginTop: "20px" }}>Featured News at JMC Limited</h6>
         <NewsCard />
       </div>
     </React.Fragment>

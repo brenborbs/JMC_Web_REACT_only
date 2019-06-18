@@ -10,10 +10,7 @@ const NewsBar = () => {
         </div>
       </div>
       <span>
-        <Link
-          to={`https://jmc-limited.com/news/update/0`}
-          style={{ color: "white" }}
-        >
+        <Link to={`/news/update/0`} style={{ color: "white" }}>
           Combined freight and passenger ferry construction initiated in China
         </Link>
       </span>
