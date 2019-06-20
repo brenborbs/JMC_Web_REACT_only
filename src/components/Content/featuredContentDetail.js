@@ -1,5 +1,6 @@
 import React from "react";
 import Helmet from "react-helmet";
+import { Link } from "react-router-dom";
 import {
   FacebookShareButton,
   FacebookIcon,
@@ -13,7 +14,7 @@ import {
   WhatsappShareButton,
   WhatsappIcon
 } from "react-share";
-import { Facebook, Twitter, Linkedin, Whatsapp } from "react-social-sharing";
+
 import CasesCard from "../../CasesCard/CasesEntry";
 import NewsCard from "../../NewsCard/EntryNewsCard";
 
@@ -30,136 +31,167 @@ const FeaturedContentDetail = ({ feature }) => {
         <meta name={feature.parTen} content={feature.parEleven} />
       </Helmet>
 
-      <div className="post-detail-content">
-        <div className="intro">
-          <h1 className="post-title">{feature.title}</h1>
-        </div>
+      <div className="container">
+        <div className="row">
+          <div className="col-lg-8">
+            <h1 className="mt-4">{feature.title}</h1>
 
-        <div className="byline">
-          <div className="pic-info">
-            <img src={feature.authorPic} alt="author" className="avatar" />
-            <p>{feature.author}</p>
-          </div>
-        </div>
-
-        <div className="sm-social-share-wrapper">
-          <div className="small-soc-buttons">
-            <Facebook
-              solidcircle
-              small
-              link={`https://jmc-limited.com/blog/feature/${feature.id}`}
-            />
-            <Twitter
-              solidcircle
-              small
-              message="Share this article"
-              link={`https://jmc-limited.com/blog/feature/${feature.id}`}
-            />
-            <Linkedin
-              solidcircle
-              small
-              message="Share this article"
-              link={`https://jmc-limited.com/blog/feature/${feature.id}`}
-            />
-            <Whatsapp
-              solidcircle
-              small
-              message="Share on Whatsapp"
-              link={`https://jmc-limited.com/blog/feature/${feature.id}`}
-            />
-          </div>
-        </div>
-
-        <div className="summary">
-          <p>{feature.desc}</p>
-        </div>
-
-        <div className="post-content">
-          <p>{feature.parOne}</p>
-          <p>{feature.parTwo}</p>
-          <p>{feature.parThree}</p>
-          <img
-            className="featurette-image img-fluid mx-auto"
-            src={`${feature.img}`}
-            alt="feat"
-            style={{ width: "100%" }}
-          />
-          <p style={{ marginTop: "18px" }}>
-            <em>{feature.parFour}</em>
-          </p>
-          <p>{feature.parFive}</p>
-          <p>{feature.parSix}</p>
-          <p>{feature.parSeven}</p>
-          <p>{feature.parEight}</p>
-          <p>{feature.parNine}</p>
-          <p>{feature.parTen}</p>
-          <p>{feature.parEleven}</p>
-        </div>
-        <div className="story-container">
-          <h4>Share this story</h4>
-          <div className="Demo__container">
-            <div className="Demo__some-network">
-              <FacebookShareButton
-                url={`https://jmc-limited.com/blog/feature/${feature.id}`}
-                quote={feature.title}
-                className="Demo__some-network__share-button"
-              >
-                <FacebookIcon size={32} round={false} />
-              </FacebookShareButton>
-              <FacebookShareCount
-                url={`https://jmc-limited.com/blog/feature/${feature.id}`}
-                className="Demo__some-network__share-count"
-              >
-                {count => count}
-              </FacebookShareCount>
+            <div className="byline">
+              <div className="pic-info">
+                <img src={feature.authorPic} alt="author" className="avatar" />
+                <p>{feature.author}</p>
+              </div>
             </div>
-            <div className="Demo__some-network">
-              <TwitterShareButton
-                url={`https://jmc-limited.com/blog/feature/${feature.id}`}
-                quote={feature.title}
-                className="Demo__some-network__share-button"
-              >
-                <TwitterIcon size={32} round={false} />
-              </TwitterShareButton>
-            </div>
-            <div className="Demo__some-network">
-              <LinkedinShareButton
-                url={`https://jmc-limited.com/blog/feature/${feature.id}`}
-                windowWidth={750}
-                windowHeight={600}
-                className="Demo__some-network__share-button"
-              >
-                <LinkedinIcon size={32} round={false} />
-              </LinkedinShareButton>
-            </div>
-            <div className="Demo__some-network">
-              <EmailShareButton
-                url={`https://jmc-limited.com/blog/feature/${feature.id}`}
-                subject={feature.title}
-                body="body"
-                className="Demo__some-network__share-button"
-              >
-                <EmailIcon size={32} round={false} />
-              </EmailShareButton>
-            </div>
-            <div className="Demo__some-network">
-              <WhatsappShareButton
-                url={`https://jmc-limited.com/blog/feature/${feature.id}`}
-                title={feature.title}
-                separator=":: "
-                className="Demo__some-network__share-button"
-              >
-                <WhatsappIcon size={32} round={false} />
-              </WhatsappShareButton>
 
-              <div className="Demo__some-network__share-count">&nbsp;</div>
+            <hr />
+
+            <p>Posted on April 04, 2019</p>
+
+            <img
+              src={`${feature.img}`}
+              alt={feature.title}
+              className="img-fluid rounded"
+            />
+
+            <hr />
+
+            <p className="lead">{feature.desc}</p>
+            <p>{feature.parOne}</p>
+            <p>{feature.parTwo}</p>
+            <p>{feature.parThree}</p>
+            <p>{feature.parFive}</p>
+            <p>{feature.parSix}</p>
+            <p>{feature.parSeven}</p>
+            <p>{feature.parEight}</p>
+            <p>{feature.parNine}</p>
+            <p>{feature.parTen}</p>
+            <p>{feature.parEleven}</p>
+
+            <div className="media mb-4">
+              <div className="media-body">
+                <div className="story-container">
+                  <h4>Share this story</h4>
+                  <div className="Demo__container">
+                    <div className="Demo__some-network">
+                      <FacebookShareButton
+                        url={`https://jmc-limited.com/blog/feature/${
+                          feature.id
+                        }`}
+                        quote={feature.title}
+                        className="Demo__some-network__share-button"
+                      >
+                        <FacebookIcon size={32} round={false} />
+                      </FacebookShareButton>
+                      <FacebookShareCount
+                        url={`https://jmc-limited.com/blog/feature/${
+                          feature.id
+                        }`}
+                        className="Demo__some-network__share-count"
+                      >
+                        {count => count}
+                      </FacebookShareCount>
+                    </div>
+                    <div className="Demo__some-network">
+                      <TwitterShareButton
+                        url={`https://jmc-limited.com/blog/feature/${
+                          feature.id
+                        }`}
+                        quote={feature.title}
+                        className="Demo__some-network__share-button"
+                      >
+                        <TwitterIcon size={32} round={false} />
+                      </TwitterShareButton>
+                    </div>
+                    <div className="Demo__some-network">
+                      <LinkedinShareButton
+                        url={`https://jmc-limited.com/blog/feature/${
+                          feature.id
+                        }`}
+                        windowWidth={750}
+                        windowHeight={600}
+                        className="Demo__some-network__share-button"
+                      >
+                        <LinkedinIcon size={32} round={false} />
+                      </LinkedinShareButton>
+                    </div>
+                    <div className="Demo__some-network">
+                      <EmailShareButton
+                        url={`https://jmc-limited.com/blog/feature/${
+                          feature.id
+                        }`}
+                        subject={feature.title}
+                        body="body"
+                        className="Demo__some-network__share-button"
+                      >
+                        <EmailIcon size={32} round={false} />
+                      </EmailShareButton>
+                    </div>
+                    <div className="Demo__some-network">
+                      <WhatsappShareButton
+                        url={`https://jmc-limited.com/blog/feature/${
+                          feature.id
+                        }`}
+                        title={feature.title}
+                        separator=":: "
+                        className="Demo__some-network__share-button"
+                      >
+                        <WhatsappIcon size={32} round={false} />
+                      </WhatsappShareButton>
+
+                      <div className="Demo__some-network__share-count">
+                        &nbsp;
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <h6>Read our case studies</h6>
+                <CasesCard />
+              </div>
             </div>
           </div>
+          {/* Sidebar widgets column */}
+          <div className="col-md-4">
+            <div className="card my-4">
+              <h6 className="card-header">Featured News</h6>
+              <div className="card-body">
+                <NewsCard />
+              </div>
+            </div>
+            <div className="card my-4">
+              <h5 className="card-header">Categories</h5>
+              <div className="card-body">
+                <div className="row">
+                  <div className="col-lg-6">
+                    <ul className="list-unstyled mb-0">
+                      <li>
+                        <Link to="/blog/1">Surface Treatment</Link>
+                      </li>
+                      <li>
+                        <Link to="/blog/3">New Buildings</Link>
+                      </li>
+                      <li>
+                        <Link to="/blog/4">On-Board Maintenance</Link>
+                      </li>
+                    </ul>
+                  </div>
+                  <div className="col-lg-6">
+                    <ul className="list-unstyled mb-0">
+                      <li>
+                        <Link to="/blog/6">Tank Surveys</Link>
+                      </li>
+                      {/* <li>
+                        <Link to="/">JS</Link>
+                      </li>
+                      <li>
+                        <Link to="/">JS</Link>
+                      </li> */}
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <h6>Read our case studies</h6>
-        <CasesCard />
-        <h6 style={{ marginTop: "20px" }}>Featured News at JMC Limited</h6>
-        <NewsCard />
       </div>
     </React.Fragment>
   );

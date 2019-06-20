@@ -18,18 +18,7 @@ const mapState = (state, ownProps) => {
 
 const FeaturedContent = ({ feature }) => {
   return (
-    <div className="entry-content">
-      <div
-        className="feature-image-content"
-        style={{
-          // background: `url(${feature.img})`,
-          // minHeight: '50vh',
-          marginTop: "8em",
-          marginBottom: "3em"
-        }}
-      >
-        <h1 className="page-title">Featured Article</h1>
-      </div>
+    <div className="entry-content" style={{ marginTop: "80px" }}>
       <FeaturedContentDetail feature={feature} />
     </div>
   );

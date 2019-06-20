@@ -4,28 +4,27 @@ import { Link } from "react-router-dom";
 const UpdateLink = ({ newUpdate }) => {
   return (
     <React.Fragment>
-      <div className="card" style={{ maxWidth: "220px" }}>
-        <img
-          className="card-img-top"
-          src={newUpdate.imgOne}
-          alt={newUpdate.title}
-          style={{ height: "100px" }}
-        />
-        <div className="card-body">
-          <h6 className="case-title">{newUpdate.title}</h6>
-          <p className="card-text">
-            <small className="text-muted">
-              {" "}
-              <Link
-                to={`/news/update/${newUpdate.id}`}
-                style={{ fontSize: "12px" }}
-              >
-                Read more...
-              </Link>
-            </small>
-          </p>
-        </div>
-      </div>
+      <ul className="list-unstyled mb-0">
+        <li style={{ listStyle: "none" }}>
+          <Link
+            to={`/news/update/${newUpdate.id}`}
+            style={{ fontSize: "12px", color: "black" }}
+          >
+            <img
+              className="img-thumbnail"
+              src={newUpdate.imgOne}
+              alt={newUpdate.title}
+              style={{
+                float: "left",
+                width: "50px",
+                height: "50px",
+                margin: "5px"
+              }}
+            />
+            {newUpdate.title} || {newUpdate.date}
+          </Link>
+        </li>
+      </ul>
     </React.Fragment>
   );
 };

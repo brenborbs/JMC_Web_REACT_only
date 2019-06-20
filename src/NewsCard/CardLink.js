@@ -3,15 +3,27 @@ import { Link } from "react-router-dom";
 
 const CardLink = ({ newInfo }) => {
   return (
-    <div className="card" style={{ maxWidth: "220px" }}>
-      <img className="card-img-top" src={newInfo.img} alt={newInfo.title} />
-      <div className="card-body">
-        <h6 className="card-title">{newInfo.title}</h6>
-        <small className="text-muted">
-          <Link to={`/news/feature/${newInfo.id}`}>Continue reading...</Link>
-        </small>
-      </div>
-    </div>
+    <ul className="list-unstyled mb-0">
+      <li style={{ listStyle: "none" }}>
+        <Link
+          to={`/news/feature/${newInfo.id}`}
+          style={{ fontSize: "12px", color: "black" }}
+        >
+          <img
+            className="img-thumbnail"
+            src={newInfo.img}
+            alt={newInfo.title}
+            style={{
+              float: "left",
+              width: "50px",
+              height: "50px",
+              margin: "5px"
+            }}
+          />
+          {newInfo.title} || {newInfo.date}
+        </Link>
+      </li>
+    </ul>
   );
 };
 

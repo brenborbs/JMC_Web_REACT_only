@@ -10,7 +10,7 @@ class EntryNewsCard extends Component {
   render() {
     const { newsInfo } = this.props;
     return (
-      <div className="card-deck">
+      <div className="row">
         <CardMap newsInfo={newsInfo} />
       </div>
     );
