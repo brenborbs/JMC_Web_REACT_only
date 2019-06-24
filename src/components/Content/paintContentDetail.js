@@ -1,6 +1,7 @@
 import React from "react";
 import Helmet from "react-helmet";
-import { Link } from "react-router-dom";
+import Calendar from "../../Common/Calendar.js";
+// import { Link } from "react-router-dom";
 import {
   FacebookShareButton,
   FacebookIcon,
@@ -126,38 +127,12 @@ const PaintContentDetails = ({ paint }) => {
               </div>
             </div>
             <div className="card my-4">
-              <h6 className="card-header">Categories</h6>
+              <h6 className="card-header">Today's Date</h6>
               <div className="card-body">
-                <div className="row">
-                  <div className="col-lg-6">
-                    <ul className="list-unstyled mb-0">
-                      <li>
-                        <Link to="/blog/2">Surface Treatment</Link>
-                      </li>
-                      <li>
-                        <Link to="/blog/3">New Buildings</Link>
-                      </li>
-                      <li>
-                        <Link to="/blog/4">On-Board Maintenance</Link>
-                      </li>
-                    </ul>
-                  </div>
-                  <div className="col-lg-6">
-                    <ul className="list-unstyled mb-0">
-                      <li>
-                        <Link to="/blog/6">Tank Surveys</Link>
-                      </li>
-                      {/* <li>
-                        <Link to="/">JS</Link>
-                      </li>
-                      <li>
-                        <Link to="/">JS</Link>
-                      </li> */}
-                    </ul>
-                  </div>
-                </div>
+                <Calendar />
               </div>
             </div>
+            {/* Last card ends here */}
           </div>
         </div>
       </div>

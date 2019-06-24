@@ -489,7 +489,7 @@ footer {
   align-items: center;
   flex-wrap: nowrap;
   min-height: 75px;
-  background-color: #FF4500;
+  background-color: #ff4500;
   padding: 16px;
   color: #fff;
 }
@@ -1375,9 +1375,9 @@ footer {
 
 .entry-content p {
   text-align: justify;
-  color: #222;
+  /* color: #222; */
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 200;
   line-height: 2;
 }
 /* Sponsor Slider */
