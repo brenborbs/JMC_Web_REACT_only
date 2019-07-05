@@ -44,21 +44,17 @@ class Header extends Component {
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="mx-auto" navbar>
-              <NavItem style={{ paddingTop: "7.4px" }}>
+              <NavItem>
                 <NavLink tag={Link} to="/">
                   Home
                 </NavLink>
               </NavItem>
-              <NavItem style={{ paddingTop: "7.4px" }}>
+              <NavItem>
                 <NavLink tag={Link} to="/about_us">
                   About
                 </NavLink>
               </NavItem>
-              <UncontrolledDropdown
-                nav
-                inNavbar
-                style={{ paddingTop: "7.4px" }}
-              >
+              <UncontrolledDropdown nav inNavbar>
                 <DropdownToggle nav caret>
                   Services
                 </DropdownToggle>
@@ -135,22 +131,22 @@ class Header extends Component {
                   </DropdownItem>
                 </DropdownMenu>
               </UncontrolledDropdown>
-              <NavItem style={{ paddingTop: "7.4px" }}>
+              <NavItem>
                 <NavLink tag={Link} to="/contact">
                   Contact
                 </NavLink>
               </NavItem>
-              <NavItem style={{ paddingTop: "7.4px" }}>
+              <NavItem>
                 <NavLink tag={Link} to="/news">
                   News
                 </NavLink>
               </NavItem>
-              <NavItem style={{ paddingTop: "7.4px" }}>
+              <NavItem>
                 <NavLink tag={Link} to="/blog">
                   Blog
                 </NavLink>
               </NavItem>
-              <NavItem style={{ paddingTop: "7.4px" }}>
+              <NavItem>
                 <NavLink tag={Link} to="/media">
                   Media
                 </NavLink>
