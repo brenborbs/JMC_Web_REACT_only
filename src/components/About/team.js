@@ -5,7 +5,7 @@ import Bren from "../../Resources/img/brennon.JPG";
 import Mart from "../../Resources/img/martin.png";
 import Olek from "../../Resources/img/olekA.png";
 import Erol from "../../Resources/img/erol.png";
-
+ 
 class Team extends Component {
   state = {
     members: [
