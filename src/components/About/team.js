@@ -1,11 +1,12 @@
 import React, { Component } from "react";
 import MemberList from "./memberList";
 
-import Bren from "../../Resources/img/brennon.JPG";
+//import Bren from "../../Resources/img/brennon.JPG";
 import Mart from "../../Resources/img/martin.png";
 import Olek from "../../Resources/img/olekA.png";
 import Erol from "../../Resources/img/erol.png";
- 
+import Georgi from "../../Resources/img/george.png";
+
 class Team extends Component {
   state = {
     members: [
@@ -24,17 +25,30 @@ class Team extends Component {
       },
       {
         id: 1,
-        img: Bren,
-        name: "Brennon Borbon",
-        dept: "Head, New Buildings",
-        email: "bbo@jmc-limited.com",
+        img: Georgi,
+        name: "Georgi Georgiev",
+        dept: "Coating Integrity Supv, New buildings",
+        email: "tech@jmc-limited.com",
         area: [
-          "Yard review and selection",
-          "New Building Supervision",
-          "Delivery Negotiations",
-          "Claims Handling"
+          "NB - Paint Supervision",
+          "Paint Specification Review",
+          "Paint Process Optimization",
+          "Technical Paint Support"
         ]
       },
+      // {
+      //   id: 1,
+      //   img: Bren,
+      //   name: "Brennon Borbon",
+      //   dept: "Head, New Buildings",
+      //   email: "bbo@jmc-limited.com",
+      //   area: [
+      //     "Yard review and selection",
+      //     "New Building Supervision",
+      //     "Delivery Negotiations",
+      //     "Claims Handling"
+      //   ]
+      // },
       {
         id: 2,
         img: Olek,
@@ -65,7 +79,7 @@ class Team extends Component {
         id: 4,
         img: Erol,
         name: "Erol Caglar",
-        dept: "Coating Integrity Supervisor, New buildings",
+        dept: "Coating Integrity Supv, New buildings",
         email: "eca@jmc-limited.com",
         area: [
           "NB - Paint Supervision",

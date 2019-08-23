@@ -36,12 +36,12 @@ const Newfooter = () => {
             <div className="footer-copy">
               &copy; JMC-Limited 2019
               <div>
-                <p style={{ fontSize: "10px", paddingTop: "5px" }}>
+                <p style={{ fontSize: "6px", paddingTop: "5px" }}>
                   <a
                     href="https://brennon-borbon.netlify.com/"
                     className="footer-design"
                   >
-                    Design by BmB
+                    DevWorks by BmB
                   </a>
                 </p>
               </div>

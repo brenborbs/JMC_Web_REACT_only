@@ -175,7 +175,7 @@ body {
 /* // Styles for fun
 // ------------------------------------------------- */
 
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,700");
+/* @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,700"); */
 
 .page-title {
   color: hsl(320, 60%, 30%);
@@ -199,9 +199,9 @@ h3 {
   margin-top: 1rem;
 }
 
-a {
+/* a {
   color: hsl(330, 50%, 50%);
-}
+} */
 
 .social {
   display: flex;
@@ -573,7 +573,7 @@ footer {
 }
 .footer-design {
   color: silver;
-  font-size: 10px;
+  font-size: 8px;
 }
 .footer-design:hover {
   color: darkgray;
@@ -1132,7 +1132,7 @@ footer {
   text-transform: capitalize;
 }
 
-.team-member h5 {
+.team-member h6 {
   margin: 10px 0;
   text-transform: uppercase;
 }
