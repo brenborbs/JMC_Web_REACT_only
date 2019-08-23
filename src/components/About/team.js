@@ -6,6 +6,7 @@ import Mart from "../../Resources/img/martin.png";
 import Olek from "../../Resources/img/olekA.png";
 import Erol from "../../Resources/img/erol.png";
 import Georgi from "../../Resources/img/george.png";
+import Anders from "../../Resources/img/anders.png";
 
 class Team extends Component {
   state = {
@@ -28,7 +29,7 @@ class Team extends Component {
         img: Georgi,
         name: "Georgi Georgiev",
         dept: "Coating Integrity Supv, New buildings",
-        email: "tech@jmc-limited.com",
+        email: "geo@jmc-limited.com",
         area: [
           "NB - Paint Supervision",
           "Paint Specification Review",
@@ -86,6 +87,19 @@ class Team extends Component {
           "Paint Specification Review",
           "Paint Process Optimization",
           "Technical Paint Support"
+        ]
+      },
+      {
+        id: 5,
+        img: Anders,
+        name: "Anders Bouet Thomsen",
+        dept: "New-building Project Mgr",
+        email: "abt@jmc-limited.com",
+        area: [
+          "Overall Project Management",
+          "Site Team Management",
+          "Senior Observer",
+          "New-building Drawing Approval"
         ]
       }
     ]
