@@ -7,6 +7,7 @@ import Olek from "../../Resources/img/olekA.png";
 import Erol from "../../Resources/img/erol.png";
 import Georgi from "../../Resources/img/george.png";
 import Anders from "../../Resources/img/anders.png";
+import Marian from "../../Resources/img/marian.png";
 
 class Team extends Component {
   state = {
@@ -28,10 +29,10 @@ class Team extends Component {
         id: 1,
         img: Georgi,
         name: "Georgi Georgiev",
-        dept: "Coating Integrity Supv, New buildings",
+        dept: "Coating Integrity Supv",
         email: "geo@jmc-limited.com",
         area: [
-          "NB - Paint Supervision",
+          "Paint Supervision",
           "Paint Specification Review",
           "Paint Process Optimization",
           "Technical Paint Support"
@@ -80,10 +81,10 @@ class Team extends Component {
         id: 4,
         img: Erol,
         name: "Erol Caglar",
-        dept: "Coating Integrity Supv, New buildings",
+        dept: "Coating Integrity Supv",
         email: "eca@jmc-limited.com",
         area: [
-          "NB - Paint Supervision",
+          "Paint Supervision",
           "Paint Specification Review",
           "Paint Process Optimization",
           "Technical Paint Support"
@@ -100,6 +101,19 @@ class Team extends Component {
           "Site Team Management",
           "Senior Observer",
           "New-building Drawing Approval"
+        ]
+      },
+      {
+        id: 6,
+        img: Marian,
+        name: "Marian Grigore",
+        dept: "Coating Integrity Supv",
+        email: "mag@jmc-limited.com",
+        area: [
+          "Paint Supervision",
+          "Paint Specification Review",
+          "Paint Process Optimization",
+          "Technical Paint Support"
         ]
       }
     ]
