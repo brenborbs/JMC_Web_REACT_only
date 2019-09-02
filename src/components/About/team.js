@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import MemberList from "./memberList";
 
-//import Bren from "../../Resources/img/brennon.JPG";
+import Bren from "../../Resources/img/brennon.JPG";
+import Pier from "../../Resources/img/pier.png";
 import Mart from "../../Resources/img/martin.png";
 import Olek from "../../Resources/img/olekA.png";
 import Erol from "../../Resources/img/erol.png";
@@ -29,7 +30,7 @@ class Team extends Component {
         id: 1,
         img: Georgi,
         name: "Georgi Georgiev",
-        dept: "Coating Integrity Supv",
+        dept: "Coating Integrity Supervisor",
         email: "geo@jmc-limited.com",
         area: [
           "Paint Supervision",
@@ -38,19 +39,6 @@ class Team extends Component {
           "Technical Paint Support"
         ]
       },
-      // {
-      //   id: 1,
-      //   img: Bren,
-      //   name: "Brennon Borbon",
-      //   dept: "Head, New Buildings",
-      //   email: "bbo@jmc-limited.com",
-      //   area: [
-      //     "Yard review and selection",
-      //     "New Building Supervision",
-      //     "Delivery Negotiations",
-      //     "Claims Handling"
-      //   ]
-      // },
       {
         id: 2,
         img: Olek,
@@ -81,7 +69,7 @@ class Team extends Component {
         id: 4,
         img: Erol,
         name: "Erol Caglar",
-        dept: "Coating Integrity Supv",
+        dept: "Coating Integrity Supervisor",
         email: "eca@jmc-limited.com",
         area: [
           "Paint Supervision",
@@ -94,7 +82,7 @@ class Team extends Component {
         id: 5,
         img: Anders,
         name: "Anders Bouet Thomsen",
-        dept: "New-building Project Mgr",
+        dept: "New-building Project Manager",
         email: "abt@jmc-limited.com",
         area: [
           "Overall Project Management",
@@ -107,7 +95,7 @@ class Team extends Component {
         id: 6,
         img: Marian,
         name: "Marian Grigore",
-        dept: "Coating Integrity Supv",
+        dept: "Coating Integrity Supervisor",
         email: "mag@jmc-limited.com",
         area: [
           "Paint Supervision",
@@ -115,7 +103,33 @@ class Team extends Component {
           "Paint Process Optimization",
           "Technical Paint Support"
         ]
-      }
+      },
+      {
+        id: 7,
+        img: Bren,
+        name: "Brennon Borbon",
+        dept: "Coating Integrity Supervisor",
+        email: "bbo@jmc-limited.com",
+        area: [
+          "Paint Supervision",
+          "Paint Specification Review",
+          "Paint Process Optimization",
+          "Technical Paint Support"
+        ]
+      },
+      {
+        id: 8,
+        img: Pier,
+        name: "Per Gabrielsson",
+        dept: "Coating Integrity Supervisor",
+        email: "peg@jmc-limited.com",
+        area: [
+          "Paint Supervision",
+          "Paint Specification Review",
+          "Paint Process Optimization",
+          "Technical Paint Support"
+        ]
+      },
     ]
   };
 
