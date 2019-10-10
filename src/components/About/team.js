@@ -9,6 +9,9 @@ import Erol from "../../Resources/img/erol.png";
 import Georgi from "../../Resources/img/george.png";
 import Anders from "../../Resources/img/anders.png";
 import Marian from "../../Resources/img/marian.png";
+import Yeon from "../../Resources/img/yeon.png";
+import Lejun from "../../Resources/img/lejunkim.png";
+import Kris from "../../Resources/img/kristian.png";
 
 class Team extends Component {
   state = {
@@ -17,30 +20,17 @@ class Team extends Component {
         id: 0,
         img: Mart,
         name: "Martin Jennet",
-        dept: "Head, Dry Dockings",
+        dept: "Head, Sales and Dry-docking",
         email: "mje@jmc-limited.com",
         area: [
-          "Pre-Drydocking Surveys",
-          "Dry Docking Supervision",
-          "On-Board tutoring",
-          "Support"
+          "Client Care",
+          "New Concepts Development",
+          "Technical Support",
+          "Pre-docking Surveys"
         ]
       },
       {
         id: 1,
-        img: Georgi,
-        name: "Georgi Georgiev",
-        dept: "Coating Integrity Supervisor",
-        email: "geo@jmc-limited.com",
-        area: [
-          "Paint Supervision",
-          "Paint Specification Review",
-          "Paint Process Optimization",
-          "Technical Paint Support"
-        ]
-      },
-      {
-        id: 2,
         img: Olek,
         name: "Oleksandr Gutchak",
         dept: "Head, OBM Department",
@@ -53,16 +43,29 @@ class Team extends Component {
         ]
       },
       {
-        id: 3,
-        img: Mart,
-        name: "Martin Jennet",
-        dept: "Owner, Sales & Client Relations",
-        email: "mje@jmc-limited.com",
+        id: 2,
+        img: Anders,
+        name: "Anders Bouet Thomsen",
+        dept: "New-building Project Manager",
+        email: "abt@jmc-limited.com",
         area: [
-          "Company Management",
-          "Client Care",
-          "New Business Concepts",
-          "Technical Support"
+          "Overall Project Management",
+          "Site Team Management",
+          "Senior Observer",
+          "New-building Drawing Approval"
+        ]
+      },
+      {
+        id: 3,
+        img: Georgi,
+        name: "Georgi Georgiev",
+        dept: "Coating Integrity Supervisor",
+        email: "geo@jmc-limited.com",
+        area: [
+          "Paint Supervision",
+          "Paint Specification Review",
+          "Paint Process Optimization",
+          "Technical Paint Support"
         ]
       },
       {
@@ -78,21 +81,9 @@ class Team extends Component {
           "Technical Paint Support"
         ]
       },
+
       {
         id: 5,
-        img: Anders,
-        name: "Anders Bouet Thomsen",
-        dept: "New-building Project Manager",
-        email: "abt@jmc-limited.com",
-        area: [
-          "Overall Project Management",
-          "Site Team Management",
-          "Senior Observer",
-          "New-building Drawing Approval"
-        ]
-      },
-      {
-        id: 6,
         img: Marian,
         name: "Marian Grigore",
         dept: "Coating Integrity Supervisor",
@@ -105,7 +96,7 @@ class Team extends Component {
         ]
       },
       {
-        id: 7,
+        id: 6,
         img: Bren,
         name: "Brennon Borbon",
         dept: "Coating Integrity Supervisor",
@@ -118,7 +109,7 @@ class Team extends Component {
         ]
       },
       {
-        id: 8,
+        id: 7,
         img: Pier,
         name: "Per Gabrielsson",
         dept: "Coating Integrity Supervisor",
@@ -130,6 +121,45 @@ class Team extends Component {
           "Technical Paint Support"
         ]
       },
+      {
+        id: 8,
+        img: Lejun,
+        name: "Ie Jun Kim",
+        dept: "Coating Integrity Supervisor",
+        email: "ijk@jmc-limited.com",
+        area: [
+          "Paint Supervision",
+          "Paint Specification Review",
+          "Paint Process Optimization",
+          "Technical Paint Support"
+        ]
+      },
+      {
+        id: 9,
+        img: Yeon,
+        name: "Yeon Hung Chung",
+        dept: "Coating Integrity Supervisor",
+        email: "yhc@jmc-limited.com",
+        area: [
+          "Paint Supervision",
+          "Paint Specification Review",
+          "Paint Process Optimization",
+          "Technical Paint Support"
+        ]
+      },
+      {
+        id: 10,
+        img: Kris,
+        name: "Kristian S. Bach",
+        dept: "Coating Integrity Supervisor",
+        email: "ksb@jmc-limited.com",
+        area: [
+          "Paint Supervision",
+          "Paint Specification Review",
+          "Paint Process Optimization",
+          "Technical Paint Support"
+        ]
+      }
     ]
   };
 
