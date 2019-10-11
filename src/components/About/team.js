@@ -137,7 +137,7 @@ class Team extends Component {
       {
         id: 9,
         img: Yeon,
-        name: "Yeon Hung Chung",
+        name: "Yeon Hong Chung",
         dept: "Coating Integrity Supervisor",
         email: "yhc@jmc-limited.com",
         area: [
