@@ -11,14 +11,15 @@ const initialState = [
     author: "Written by JMC Staff",
     date: "November 29, 2019",
     bodyOne:
-      "AIDAmira undergoed successful drydocking from 30th of October until 26th of November.",
+      "AIDAmira undergoed successful drydocking from 30th of October until 26th of November. She was transformed from being a Costa Cruises vessel (M/V Costa neoRiviera)",
     bodyTwo:
-      "With hardwork of JMC Limited, we assisted AIDA's ship staff and helped AIDA in ensuring best quality surface treatment on the hull and other areas.",
+      "JMC Role was to make pre-docking survey prior the dry-docking with advisory support on SOW, and total supervision of all surface treatment and hull works during the dry-docking.",
     bodyThree:
-      "JMC limited was presented by P.Gabrielsson, K.S Bach, IJ Kim and YH Chung.",
+      "JMC limited was presented by P.Gabrielsson, K.S Bach, IJ Kim and YH Chung. AIDAmira went into many repairs such as Superstructure full repainting and also addition of all the AIDA logos and decorative painting. The Topside was fully removed of existing coating system and then build-up up of new anti-corrosive system and top coating.",
     bodyFour:
-      "The team worked tirelessly for 1 month and assisted the ship owners with daily meetings, paint inventories and inspections.",
-    bodyFive: "",
+      "The spot repairs were done on vertical bottom of existing silicone system. ",
+    bodyFive:
+      "On flat bottom spot repairs were also done and finally, extensive tank paint repair of Grey water tanks, Black water and engine auxiliary tanks.",
     link: ""
   },
   {

@@ -10,8 +10,8 @@ const NewsBar = () => {
         </div>
       </div>
       <span>
-        <Link to={`/news/update/1`} style={{ color: "white" }}>
-          New ferry for the Channel reaches another milestone in construction
+        <Link to={`/news/feature/0`} style={{ color: "white" }}>
+          JMC Limited just completed drydocking of AIDAmira on Genoa Italy
         </Link>
       </span>
     </div>

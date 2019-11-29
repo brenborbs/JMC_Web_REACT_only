@@ -47,9 +47,7 @@ const HomeSlider = () => {
             <div
               className="slider-banner"
               style={{
-                background: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${
-                  item.img
-                })`,
+                background: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${item.img})`,
                 // height: `${window.innerHeight}px`
                 minHeight: "95vh"
               }}
