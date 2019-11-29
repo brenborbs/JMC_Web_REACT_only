@@ -10,7 +10,7 @@ class MainUpdate extends Component {
   render() {
     const { newsUpdate } = this.props;
     return (
-      <div className="row justify-content-center">
+      <div className="row mb-2">
         <UpdateMap newsUpdate={newsUpdate} />
       </div>
     );

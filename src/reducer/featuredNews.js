@@ -1,10 +1,28 @@
 import { createReducer } from "../Common/utilReducer";
 import Guy from "../Resources/img/newsPhoto1.png";
 import HNature from "../Resources/img/hnature.jpg";
+import AidaTeamNov from "../Resources/img/aida-team-nov.jpg";
 
 const initialState = [
   {
     id: "0",
+    img: AidaTeamNov,
+    title: "JMC Limited just completed drydocking of AIDAmira on Genoa Italy",
+    author: "Written by JMC Staff",
+    date: "November 29, 2019",
+    bodyOne:
+      "AIDAmira undergoed successful drydocking from 30th of October until 26th of November.",
+    bodyTwo:
+      "With hardwork of JMC Limited, we assisted AIDA's ship staff and helped AIDA in ensuring best quality surface treatment on the hull and other areas.",
+    bodyThree:
+      "JMC limited was presented by P.Gabrielsson, K.S Bach, IJ Kim and YH Chung.",
+    bodyFour:
+      "The team worked tirelessly for 1 month and assisted the ship owners with daily meetings, paint inventories and inspections.",
+    bodyFive: "",
+    link: ""
+  },
+  {
+    id: "1",
     img: Guy,
     title:
       "New Consultant to oversee construction of the newbuilding intended for the channel",
@@ -24,7 +42,7 @@ const initialState = [
       "https://www.dfds-news.com/ships/new-consultant-to-oversee-construction-of-the-newbuilding-intended-for-the-channel/"
   },
   {
-    id: "1",
+    id: "2",
     img: HNature,
     title: "Hanseatic Nature passes her sea trial",
     author: "Updates from hl-cruises.com/ships/hanseatic-nature",

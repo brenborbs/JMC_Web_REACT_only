@@ -20,7 +20,7 @@ class Team extends Component {
         id: 0,
         img: Mart,
         name: "Martin Jennet",
-        dept: "Head, Sales and Dry-docking",
+        dept: "Managing Director",
         email: "mje@jmc-limited.com",
         area: [
           "Client Care",
@@ -46,7 +46,7 @@ class Team extends Component {
         id: 2,
         img: Anders,
         name: "Anders Bouet Thomsen",
-        dept: "New-building Project Manager",
+        dept: "Senior Project Manager",
         email: "abt@jmc-limited.com",
         area: [
           "Overall Project Management",

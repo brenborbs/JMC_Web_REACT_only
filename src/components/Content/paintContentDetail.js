@@ -77,7 +77,7 @@ const PaintContentDetails = ({ paint }) => {
                       windowWidth={750}
                       windowHeight={600}
                       className="Demo__some-network__share-button"
-                    >
+                    > 
                       <LinkedinIcon size={32} round={false} />
                     </LinkedinShareButton>
                   </div>

@@ -4,7 +4,7 @@ import Helmet from "react-helmet";
 
 const UpdateLink = ({ newUpdate }) => {
   return (
-    <div className="col-md-10">
+    <div className="col-md-6">
       <Helmet>
         <meta name={newUpdate.title} content={newUpdate.bodOne} />
       </Helmet>
